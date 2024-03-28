@@ -1,184 +1,220 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 bob-wise0/synp is built on the following main stack:
-- [Segment](https://segment.com/?utm_medium=paid-display&utm_source=stackshare&utm_campaign=analytics) – Analytics Integrator
-- [Chartio](https://chartio.com) – Business Intelligence
-- [New Relic](http://newrelic.com) – Performance Monitoring
-- [Code Climate](https://codeclimate.com/) – Code Review
-- [Coveralls](https://coveralls.io/) – Code Coverage
-- [PonyDebugger](https://github.com/square/PonyDebugger) – Mobile Runtime Inspector
-- [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
-- [Jasmine](http://jasmine.github.io/) – Javascript Testing Framework
-- [Mocha](http://mochajs.org/) – Javascript Testing Framework
-- [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
-- [Browserify](http://browserify.org/) – Front End Package Manager
-- [Testling](https://ci.testling.com/) – Continuous Integration
-- [RequireJS](http://requirejs.org/) – Front End Package Manager
-- [Codacy](https://www.codacy.com/) – Code Review
-- [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
-- [React](https://reactjs.org/) – Javascript UI Libraries
-- [Redis](http://redis.io/) – In-Memory Databases
-- [ExpressJS](http://expressjs.com/) – Microframeworks (Backend)
-- [Less](http://lesscss.org/) – CSS Pre-processors / Extensions
-- [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
+
+- [EJS](https://ejs.co/) – Templating Languages & Extensions
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- [ngrok](https://ngrok.com/) – localhost Tools
-- [pre-commit](http://jish.github.io/pre-commit/) – Git Tools
-- [Karma](http://karma-runner.github.io/) – Browser Testing
-- [QUnit](http://qunitjs.com/) – Javascript Testing Framework
+- [LiveScript](http://livescript.net/) – Languages
 - [TypeScript](http://www.typescriptlang.org) – Languages
-- [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
-- [Chai](http://chaijs.com/) – Javascript Testing Framework
-- [RxJS](http://reactivex.io/rxjs/) – Concurrency Frameworks
-- [PhantomJS](https://phantomjs.org/) – Headless Browsers
-- [JSHint](http://www.jshint.com/about/) – Code Review
-- [Istanbul](http://gotwarlost.github.io/istanbul/) – Code Coverage
 - [Autoprefixer](https://github.com/postcss/autoprefixer) – CSS Pre-processors / Extensions
-- [Lodash](https://lodash.com) – Javascript Utilities & Libraries
-- [CodeMirror](http://codemirror.net/) – Text Editor
-- [React Hot Loader](http://gaearon.github.io/react-hot-loader/) – JavaScript Framework Components
-- [Codecov](https://codecov.io/) – Code Coverage
-- [Babel](http://babeljs.io/) – JavaScript Compilers
-- [Immutable.js](http://facebook.github.io/immutable-js/) – Javascript Utilities & Libraries
-- [Zuul](https://github.com/Netflix/zuul) – Microservices Tools
-- [Kadira](https://kadira.io) – Performance Monitoring
-- [Ramda](https://ramdajs.com/) – Javascript Utilities & Libraries
-- [Hyper](https://hyper.sh/) – Containers as a Service
+- [ExpressJS](http://expressjs.com/) – Microframeworks (Backend)
+- [Glamorous](https://glamorous.rocks) – JavaScript Framework Components
+- [Less](http://lesscss.org/) – CSS Pre-processors / Extensions
+- [Matcha](https://gomatcha.io/) – Cross-Platform Mobile Development
 - [Material Design Lite](http://www.getmdl.io/) – Front-End Frameworks
-- [ESLint](http://eslint.org/) – Code Review
-- [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
-- [SinonJS](http://sinonjs.org/) – Javascript Testing Framework
-- [Prototype](http://prototypejs.org/) – Javascript UI Libraries
-- [Moment.js](http://momentjs.com/) – Javascript Utilities & Libraries
-- [SuperTest](https://www.npmjs.com/package/supertest) – Javascript Testing Framework
-- [Redux](https://redux.js.org/) – State Management Library
+- [MobX](https://github.com/mobxjs/mobx) – State Management Library
+- [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
+- [PostCSS](https://github.com/postcss/postcss) – CSS Pre-processors / Extensions
 - [Preact](http://developit.github.io/preact/) – Javascript UI Libraries
-- [rollup](http://rollupjs.org/) – JS Build Tools / JS Task Runners
-- [Enzyme](https://enzymejs.github.io/enzyme/) – Javascript Testing Framework
+- [Prototype](http://prototypejs.org/) – Javascript UI Libraries
+- [React](https://reactjs.org/) – Javascript UI Libraries
+- [React Hot Loader](http://gaearon.github.io/react-hot-loader/) – JavaScript Framework Components
+- [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
+- [Redux](https://redux.js.org/) – State Management Library
+- [RxJS](http://reactivex.io/rxjs/) – Concurrency Frameworks
+- [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
+- [Storybook](https://storybook.js.org/) – JavaScript Framework Components
+- [Xtend](http://www.eclipse.org/xtend/) – Language Extensions
+- [css-loader](https://github.com/webpack-contrib/css-loader) – CSS Pre-processors / Extensions
+- [NCache](http://www.alachisoft.com/) – In-Memory Databases
+- [Redis](http://redis.io/) – In-Memory Databases
+- [Babel](http://babeljs.io/) – JavaScript Compilers
+- [Browserify](http://browserify.org/) – Front End Package Manager
+- [Bunyan](https://github.com/trentm/node-bunyan) – Logging Tools
+- [Chai](http://chaijs.com/) – Javascript Testing Framework
+- [Codacy](https://www.codacy.com/) – Code Review
+- [Code Climate](https://codeclimate.com/) – Code Review
+- [CodeMirror](http://codemirror.net/) – Text Editor
+- [Codecov](https://codecov.io/) – Code Coverage
+- [Coveralls](https://coveralls.io/) – Code Coverage
+- [Cypress](https://www.cypress.io/) – Javascript Testing Framework
+- [ESLint](http://eslint.org/) – Code Review
 - [EarlGrey](https://github.com/google/EarlGrey) – Mobile Testing Frameworks
 - [EditorConfig](http://editorconfig.org) – Code Review
-- [MobX](https://github.com/mobxjs/mobx) – State Management Library
-- [LiveScript](http://livescript.net/) – Languages
-- [Stylelint](http://stylelint.io/) – Code Review
-- [TSLint](https://github.com/palantir/tslint) – Code Review
-- [nodemon](http://nodemon.io/) – node.js Application Monitoring
-- [Yarn](https://yarnpkg.com/) – Front End Package Manager
-- [InSpec](https://www.inspec.io/) – Testing Frameworks
-- [React Navigation](https://reactnavigation.org/) – Cross-Platform Mobile Tools
-- [System.js](https://github.com/systemjs/systemjs) – JS Build Tools / JS Task Runners
-- [Kompose](http://kompose.io/) – Container Tools
-- [JSLint](http://www.jslint.com/) – Code Review
-- [Prettier](https://prettier.io/) – Code Review
-- [jsdom](https://github.com/jsdom/jsdom) – Headless Browsers
-- [css-loader](https://github.com/webpack-contrib/css-loader) – CSS Pre-processors / Extensions
-- [Firefox](https://www.mozilla.org/en-US/firefox/) – Web Browser
-- [Glamorous](https://glamorous.rocks) – JavaScript Framework Components
-- [Cypress](https://www.cypress.io/) – Javascript Testing Framework
-- [Storybook](https://storybook.js.org/) – JavaScript Framework Components
-- [Bunyan](https://github.com/trentm/node-bunyan) – Logging Tools
-- [NCache](http://www.alachisoft.com/) – In-Memory Databases
+- [Enzyme](https://enzymejs.github.io/enzyme/) – Javascript Testing Framework
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [Grunt](http://gruntjs.com/) – JS Build Tools / JS Task Runners
+- [Hyper](https://hyper.sh/) – Containers as a Service
+- [InSpec](https://www.inspec.io/) – Testing Frameworks
+- [Istanbul](http://gotwarlost.github.io/istanbul/) – Code Coverage
+- [JSHint](http://www.jshint.com/about/) – Code Review
+- [JSLint](http://www.jslint.com/) – Code Review
+- [Jasmine](http://jasmine.github.io/) – Javascript Testing Framework
+- [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
+- [Kadira](https://kadira.io) – Performance Monitoring
+- [Karma](http://karma-runner.github.io/) – Browser Testing
+- [Kompose](http://kompose.io/) – Container Tools
+- [Mocha](http://mochajs.org/) – Javascript Testing Framework
+- [New Relic](http://newrelic.com) – Performance Monitoring
+- [PhantomJS](https://phantomjs.org/) – Headless Browsers
+- [Prettier](https://prettier.io/) – Code Review
+- [QUnit](http://qunitjs.com/) – Javascript Testing Framework
+- [RequireJS](http://requirejs.org/) – Front End Package Manager
+- [SinonJS](http://sinonjs.org/) – Javascript Testing Framework
+- [Split](http://www.split.io) – Feature Flags Management
+- [Stylelint](http://stylelint.io/) – Code Review
+- [SuperTest](https://www.npmjs.com/package/supertest) – Javascript Testing Framework
+- [System.js](https://github.com/systemjs/systemjs) – JS Build Tools / JS Task Runners
+- [TSLint](https://github.com/palantir/tslint) – Code Review
+- [Testling](https://ci.testling.com/) – Continuous Integration
+- [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
+- [Yarn](https://yarnpkg.com/) – Front End Package Manager
+- [Zuul](https://github.com/Netflix/zuul) – Microservices Tools
+- [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
+- [jsdom](https://github.com/jsdom/jsdom) – Headless Browsers
+- [ngrok](https://ngrok.com/) – localhost Tools
+- [nodemon](http://nodemon.io/) – node.js Application Monitoring
+- [pre-commit](http://jish.github.io/pre-commit/) – Git Tools
+- [rollup](http://rollupjs.org/) – JS Build Tools / JS Task Runners
+- [Buffer](https://bufferapp.com/) – Social Media Tools
+- [Chartio](https://chartio.com) – Business Intelligence
+- [Gitbook](http://gitbook.com/) – Documentation as a Service & Tools
+- [Ora](https://ora.pm/) – Project Management
+- [Segment](https://segment.com/?utm_medium=paid-display&utm_source=stackshare&utm_campaign=analytics) – Analytics Integrator
+- [Firefox](https://www.mozilla.org/en-US/firefox/) – Web Browser
+- [Immutable.js](http://facebook.github.io/immutable-js/) – Javascript Utilities & Libraries
+- [Lodash](https://lodash.com) – Javascript Utilities & Libraries
+- [Moment.js](http://momentjs.com/) – Javascript Utilities & Libraries
+- [PonyDebugger](https://github.com/square/PonyDebugger) – Mobile Runtime Inspector
+- [Q](https://github.com/kriskowal/q) – Javascript Utilities & Libraries
+- [Ramda](https://ramdajs.com/) – Javascript Utilities & Libraries
+- [React Navigation](https://reactnavigation.org/) – Cross-Platform Mobile Tools
+- [Underscore](http://underscorejs.org/) – Javascript Utilities & Libraries
+- [jsdoc](http://usejsdoc.org/) – Documentation as a Service & Tools
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 bob-wise0/synp is built on the following main stack:
-- <img width='25' height='25' src='https://img.stackshare.io/service/5/default_aa447805966bbb635af0d113e93e1f1030497052.jpg' alt='Segment'/> [Segment](https://segment.com/?utm_medium=paid-display&utm_source=stackshare&utm_campaign=analytics) – Analytics Integrator
-- <img width='25' height='25' src='https://img.stackshare.io/service/9/TtrFaQ3j_400x400.png' alt='Chartio'/> [Chartio](https://chartio.com) – Business Intelligence
-- <img width='25' height='25' src='https://img.stackshare.io/service/103/default_193410db3a7e419c7b436961bf41d733c7346b59.png' alt='New Relic'/> [New Relic](http://newrelic.com) – Performance Monitoring
-- <img width='25' height='25' src='https://img.stackshare.io/service/305/KFgYaUkK.png' alt='Code Climate'/> [Code Climate](https://codeclimate.com/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png' alt='Coveralls'/> [Coveralls](https://coveralls.io/) – Code Coverage
-- <img width='25' height='25' src='https://img.stackshare.io/service/729/Logo.png' alt='PonyDebugger'/> [PonyDebugger](https://github.com/square/PonyDebugger) – Mobile Runtime Inspector
-- <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
-- <img width='25' height='25' src='https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png' alt='Jasmine'/> [Jasmine](http://jasmine.github.io/) – Javascript Testing Framework
-- <img width='25' height='25' src='https://img.stackshare.io/service/832/mocha.png' alt='Mocha'/> [Mocha](http://mochajs.org/) – Javascript Testing Framework
-- <img width='25' height='25' src='https://img.stackshare.io/service/844/iruTC031.png' alt='gulp'/> [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
-- <img width='25' height='25' src='https://img.stackshare.io/service/849/9esmqty2.png' alt='Browserify'/> [Browserify](http://browserify.org/) – Front End Package Manager
-- <img width='25' height='25' src='https://img.stackshare.io/service/851/testling.png' alt='Testling'/> [Testling](https://ci.testling.com/) – Continuous Integration
-- <img width='25' height='25' src='https://img.stackshare.io/service/852/1781835.png' alt='RequireJS'/> [RequireJS](http://requirejs.org/) – Front End Package Manager
-- <img width='25' height='25' src='https://img.stackshare.io/service/866/default_3252d282a3e0bdac472b0eb745cd8d415480559c.jpg' alt='Codacy'/> [Codacy](https://www.codacy.com/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
-- <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png' alt='Redis'/> [Redis](http://redis.io/) – In-Memory Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1163/hashtag.png' alt='ExpressJS'/> [ExpressJS](http://expressjs.com/) – Microframeworks (Backend)
-- <img width='25' height='25' src='https://img.stackshare.io/service/1170/default_957cbc0168b4d37265e264469c888f776e57f42c.png' alt='Less'/> [Less](http://lesscss.org/) – CSS Pre-processors / Extensions
-- <img width='25' height='25' src='https://img.stackshare.io/service/1171/jCR2zNJV.png' alt='Sass'/> [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
+
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='EJS'/> [EJS](https://ejs.co/) – Templating Languages & Extensions
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1309/default_64cb55c1a8367f51e710697a54340fc497cfe6a1.png' alt='ngrok'/> [ngrok](https://ngrok.com/) – localhost Tools
-- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='pre-commit'/> [pre-commit](http://jish.github.io/pre-commit/) – Git Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/1420/TidYGd6a.png' alt='Karma'/> [Karma](http://karma-runner.github.io/) – Browser Testing
-- <img width='25' height='25' src='https://img.stackshare.io/service/1421/b706f022230831a3d391db504a139e21.png' alt='QUnit'/> [QUnit](http://qunitjs.com/) – Javascript Testing Framework
+- <img width='25' height='25' src='https://img.stackshare.io/service/5404/New_Project.jpg' alt='LiveScript'/> [LiveScript](http://livescript.net/) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1612/bynNY5dJ.jpg' alt='TypeScript'/> [TypeScript](http://www.typescriptlang.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1682/IMG_4636.PNG' alt='Webpack'/> [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
-- <img width='25' height='25' src='https://img.stackshare.io/service/1725/chai.png' alt='Chai'/> [Chai](http://chaijs.com/) – Javascript Testing Framework
-- <img width='25' height='25' src='https://img.stackshare.io/service/1796/984368.png' alt='RxJS'/> [RxJS](http://reactivex.io/rxjs/) – Concurrency Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/1832/phantomjs.png' alt='PhantomJS'/> [PhantomJS](https://phantomjs.org/) – Headless Browsers
-- <img width='25' height='25' src='https://img.stackshare.io/service/1945/mzh2bRes_400x400.png' alt='JSHint'/> [JSHint](http://www.jshint.com/about/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/2105/default_78659c552327b8ff3592c2aa1694ea92c974a8d5.png' alt='Istanbul'/> [Istanbul](http://gotwarlost.github.io/istanbul/) – Code Coverage
 - <img width='25' height='25' src='https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png' alt='Autoprefixer'/> [Autoprefixer](https://github.com/postcss/autoprefixer) – CSS Pre-processors / Extensions
-- <img width='25' height='25' src='https://img.stackshare.io/service/2438/lodash.png' alt='Lodash'/> [Lodash](https://lodash.com) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/2490/E_fCaAi6.png' alt='CodeMirror'/> [CodeMirror](http://codemirror.net/) – Text Editor
-- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='React Hot Loader'/> [React Hot Loader](http://gaearon.github.io/react-hot-loader/) – JavaScript Framework Components
-- <img width='25' height='25' src='https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png' alt='Codecov'/> [Codecov](https://codecov.io/) – Code Coverage
-- <img width='25' height='25' src='https://img.stackshare.io/service/2739/-1wfGjNw.png' alt='Babel'/> [Babel](http://babeljs.io/) – JavaScript Compilers
-- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='Immutable.js'/> [Immutable.js](http://facebook.github.io/immutable-js/) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/2932/zuul.png' alt='Zuul'/> [Zuul](https://github.com/Netflix/zuul) – Microservices Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/2943/556a74a47d94ecff7ed4d94a8f96c0c0.png' alt='Kadira'/> [Kadira](https://kadira.io) – Performance Monitoring
-- <img width='25' height='25' src='https://img.stackshare.io/service/3076/Ramda-01.png' alt='Ramda'/> [Ramda](https://ramdajs.com/) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/3125/xSVaubUG_400x400.jpg' alt='Hyper'/> [Hyper](https://hyper.sh/) – Containers as a Service
+- <img width='25' height='25' src='https://img.stackshare.io/service/1163/hashtag.png' alt='ExpressJS'/> [ExpressJS](http://expressjs.com/) – Microframeworks (Backend)
+- <img width='25' height='25' src='https://img.stackshare.io/service/9149/full.png' alt='Glamorous'/> [Glamorous](https://glamorous.rocks) – JavaScript Framework Components
+- <img width='25' height='25' src='https://img.stackshare.io/service/1170/default_957cbc0168b4d37265e264469c888f776e57f42c.png' alt='Less'/> [Less](http://lesscss.org/) – CSS Pre-processors / Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/7697/28016430.jpeg' alt='Matcha'/> [Matcha](https://gomatcha.io/) – Cross-Platform Mobile Development
 - <img width='25' height='25' src='https://img.stackshare.io/service/3318/default_9180d788d095cc3a5cb0d21aba527ddb424dcf32.png' alt='Material Design Lite'/> [Material Design Lite](http://www.getmdl.io/) – Front-End Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/3350/8261421.png' alt='React Router'/> [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
-- <img width='25' height='25' src='https://img.stackshare.io/service/3509/logo.png' alt='SinonJS'/> [SinonJS](http://sinonjs.org/) – Javascript Testing Framework
-- <img width='25' height='25' src='https://img.stackshare.io/service/3597/o_bigger_400x400.png' alt='Prototype'/> [Prototype](http://prototypejs.org/) – Javascript UI Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png' alt='Moment.js'/> [Moment.js](http://momentjs.com/) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='SuperTest'/> [SuperTest](https://www.npmjs.com/package/supertest) – Javascript Testing Framework
-- <img width='25' height='25' src='https://img.stackshare.io/service/4074/13142323.png' alt='Redux'/> [Redux](https://redux.js.org/) – State Management Library
+- <img width='25' height='25' src='https://img.stackshare.io/service/5302/17475736.png' alt='MobX'/> [MobX](https://github.com/mobxjs/mobx) – State Management Library
+- <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/3339/rlFcjEdI.png' alt='PostCSS'/> [PostCSS](https://github.com/postcss/postcss) – CSS Pre-processors / Extensions
 - <img width='25' height='25' src='https://img.stackshare.io/service/4388/preact.png' alt='Preact'/> [Preact](http://developit.github.io/preact/) – Javascript UI Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg' alt='rollup'/> [rollup](http://rollupjs.org/) – JS Build Tools / JS Task Runners
-- <img width='25' height='25' src='https://img.stackshare.io/service/4488/default_87e6ca3fa146a959af95ccf3df1ec550eb434129.png' alt='Enzyme'/> [Enzyme](https://enzymejs.github.io/enzyme/) – Javascript Testing Framework
+- <img width='25' height='25' src='https://img.stackshare.io/service/3597/o_bigger_400x400.png' alt='Prototype'/> [Prototype](http://prototypejs.org/) – Javascript UI Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='React Hot Loader'/> [React Hot Loader](http://gaearon.github.io/react-hot-loader/) – JavaScript Framework Components
+- <img width='25' height='25' src='https://img.stackshare.io/service/3350/8261421.png' alt='React Router'/> [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
+- <img width='25' height='25' src='https://img.stackshare.io/service/4074/13142323.png' alt='Redux'/> [Redux](https://redux.js.org/) – State Management Library
+- <img width='25' height='25' src='https://img.stackshare.io/service/1796/984368.png' alt='RxJS'/> [RxJS](http://reactivex.io/rxjs/) – Concurrency Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/1171/jCR2zNJV.png' alt='Sass'/> [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/9240/sOct-Txm_400x400.png' alt='Storybook'/> [Storybook](https://storybook.js.org/) – JavaScript Framework Components
+- <img width='25' height='25' src='https://img.stackshare.io/service/4709/Xpand_Marke_32x32_400x400.png' alt='Xtend'/> [Xtend](http://www.eclipse.org/xtend/) – Language Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png' alt='css-loader'/> [css-loader](https://github.com/webpack-contrib/css-loader) – CSS Pre-processors / Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/10846/default_ee620afff27b68922671eadeacc23ed67db2beec.png' alt='NCache'/> [NCache](http://www.alachisoft.com/) – In-Memory Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png' alt='Redis'/> [Redis](http://redis.io/) – In-Memory Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/2739/-1wfGjNw.png' alt='Babel'/> [Babel](http://babeljs.io/) – JavaScript Compilers
+- <img width='25' height='25' src='https://img.stackshare.io/service/849/9esmqty2.png' alt='Browserify'/> [Browserify](http://browserify.org/) – Front End Package Manager
+- <img width='25' height='25' src='https://img.stackshare.io/service/10249/no-img-open-source.png' alt='Bunyan'/> [Bunyan](https://github.com/trentm/node-bunyan) – Logging Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/1725/chai.png' alt='Chai'/> [Chai](http://chaijs.com/) – Javascript Testing Framework
+- <img width='25' height='25' src='https://img.stackshare.io/service/866/default_3252d282a3e0bdac472b0eb745cd8d415480559c.jpg' alt='Codacy'/> [Codacy](https://www.codacy.com/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/305/KFgYaUkK.png' alt='Code Climate'/> [Code Climate](https://codeclimate.com/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/2490/E_fCaAi6.png' alt='CodeMirror'/> [CodeMirror](http://codemirror.net/) – Text Editor
+- <img width='25' height='25' src='https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png' alt='Codecov'/> [Codecov](https://codecov.io/) – Code Coverage
+- <img width='25' height='25' src='https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png' alt='Coveralls'/> [Coveralls](https://coveralls.io/) – Code Coverage
+- <img width='25' height='25' src='https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png' alt='Cypress'/> [Cypress](https://www.cypress.io/) – Javascript Testing Framework
+- <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
 - <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='EarlGrey'/> [EarlGrey](https://github.com/google/EarlGrey) – Mobile Testing Frameworks
 - <img width='25' height='25' src='https://img.stackshare.io/service/4726/edcon_color_transbg2_400x400.png' alt='EditorConfig'/> [EditorConfig](http://editorconfig.org) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/5302/17475736.png' alt='MobX'/> [MobX](https://github.com/mobxjs/mobx) – State Management Library
-- <img width='25' height='25' src='https://img.stackshare.io/service/5404/New_Project.jpg' alt='LiveScript'/> [LiveScript](http://livescript.net/) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/5446/V9JsvPul_400x400.jpg' alt='Stylelint'/> [Stylelint](http://stylelint.io/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/5561/303157.png' alt='TSLint'/> [TSLint](https://github.com/palantir/tslint) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/5577/preview.png' alt='nodemon'/> [nodemon](http://nodemon.io/) – node.js Application Monitoring
-- <img width='25' height='25' src='https://img.stackshare.io/service/5848/44mC-kJ3.jpg' alt='Yarn'/> [Yarn](https://yarnpkg.com/) – Front End Package Manager
-- <img width='25' height='25' src='https://img.stackshare.io/service/6202/inspec-1.jpg' alt='InSpec'/> [InSpec](https://www.inspec.io/) – Testing Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/6422/react-navigation.png' alt='React Navigation'/> [React Navigation](https://reactnavigation.org/) – Cross-Platform Mobile Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/6561/New_Project1.png' alt='System.js'/> [System.js](https://github.com/systemjs/systemjs) – JS Build Tools / JS Task Runners
-- <img width='25' height='25' src='https://img.stackshare.io/service/6635/20862812.png' alt='Kompose'/> [Kompose](http://kompose.io/) – Container Tools
-- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='JSLint'/> [JSLint](http://www.jslint.com/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg' alt='Prettier'/> [Prettier](https://prettier.io/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/7054/preview.jpeg' alt='jsdom'/> [jsdom](https://github.com/jsdom/jsdom) – Headless Browsers
-- <img width='25' height='25' src='https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png' alt='css-loader'/> [css-loader](https://github.com/webpack-contrib/css-loader) – CSS Pre-processors / Extensions
-- <img width='25' height='25' src='https://img.stackshare.io/service/8705/768px-Firefox_Logo__2017.svg.png' alt='Firefox'/> [Firefox](https://www.mozilla.org/en-US/firefox/) – Web Browser
-- <img width='25' height='25' src='https://img.stackshare.io/service/9149/full.png' alt='Glamorous'/> [Glamorous](https://glamorous.rocks) – JavaScript Framework Components
-- <img width='25' height='25' src='https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png' alt='Cypress'/> [Cypress](https://www.cypress.io/) – Javascript Testing Framework
-- <img width='25' height='25' src='https://img.stackshare.io/service/9240/sOct-Txm_400x400.png' alt='Storybook'/> [Storybook](https://storybook.js.org/) – JavaScript Framework Components
-- <img width='25' height='25' src='https://img.stackshare.io/service/10249/no-img-open-source.png' alt='Bunyan'/> [Bunyan](https://github.com/trentm/node-bunyan) – Logging Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/10846/default_ee620afff27b68922671eadeacc23ed67db2beec.png' alt='NCache'/> [NCache](http://www.alachisoft.com/) – In-Memory Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/4488/default_87e6ca3fa146a959af95ccf3df1ec550eb434129.png' alt='Enzyme'/> [Enzyme](https://enzymejs.github.io/enzyme/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/845/falgg2jybmhgk16y62lr.png' alt='Grunt'/> [Grunt](http://gruntjs.com/) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/service/3125/xSVaubUG_400x400.jpg' alt='Hyper'/> [Hyper](https://hyper.sh/) – Containers as a Service
+- <img width='25' height='25' src='https://img.stackshare.io/service/6202/inspec-1.jpg' alt='InSpec'/> [InSpec](https://www.inspec.io/) – Testing Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/2105/default_78659c552327b8ff3592c2aa1694ea92c974a8d5.png' alt='Istanbul'/> [Istanbul](http://gotwarlost.github.io/istanbul/) – Code Coverage
+- <img width='25' height='25' src='https://img.stackshare.io/service/1945/mzh2bRes_400x400.png' alt='JSHint'/> [JSHint](http://www.jshint.com/about/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='JSLint'/> [JSLint](http://www.jslint.com/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png' alt='Jasmine'/> [Jasmine](http://jasmine.github.io/) – Javascript Testing Framework
+- <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
+- <img width='25' height='25' src='https://img.stackshare.io/service/2943/556a74a47d94ecff7ed4d94a8f96c0c0.png' alt='Kadira'/> [Kadira](https://kadira.io) – Performance Monitoring
+- <img width='25' height='25' src='https://img.stackshare.io/service/1420/TidYGd6a.png' alt='Karma'/> [Karma](http://karma-runner.github.io/) – Browser Testing
+- <img width='25' height='25' src='https://img.stackshare.io/service/6635/20862812.png' alt='Kompose'/> [Kompose](http://kompose.io/) – Container Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/832/mocha.png' alt='Mocha'/> [Mocha](http://mochajs.org/) – Javascript Testing Framework
+- <img width='25' height='25' src='https://img.stackshare.io/service/103/default_193410db3a7e419c7b436961bf41d733c7346b59.png' alt='New Relic'/> [New Relic](http://newrelic.com) – Performance Monitoring
+- <img width='25' height='25' src='https://img.stackshare.io/service/1832/phantomjs.png' alt='PhantomJS'/> [PhantomJS](https://phantomjs.org/) – Headless Browsers
+- <img width='25' height='25' src='https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg' alt='Prettier'/> [Prettier](https://prettier.io/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/1421/b706f022230831a3d391db504a139e21.png' alt='QUnit'/> [QUnit](http://qunitjs.com/) – Javascript Testing Framework
+- <img width='25' height='25' src='https://img.stackshare.io/service/852/1781835.png' alt='RequireJS'/> [RequireJS](http://requirejs.org/) – Front End Package Manager
+- <img width='25' height='25' src='https://img.stackshare.io/service/3509/logo.png' alt='SinonJS'/> [SinonJS](http://sinonjs.org/) – Javascript Testing Framework
+- <img width='25' height='25' src='https://img.stackshare.io/service/6588/default_2be28faff45ce2d9a308cf9c36820697303a7c11.jpg' alt='Split'/> [Split](http://www.split.io) – Feature Flags Management
+- <img width='25' height='25' src='https://img.stackshare.io/service/5446/V9JsvPul_400x400.jpg' alt='Stylelint'/> [Stylelint](http://stylelint.io/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='SuperTest'/> [SuperTest](https://www.npmjs.com/package/supertest) – Javascript Testing Framework
+- <img width='25' height='25' src='https://img.stackshare.io/service/6561/New_Project1.png' alt='System.js'/> [System.js](https://github.com/systemjs/systemjs) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/service/5561/303157.png' alt='TSLint'/> [TSLint](https://github.com/palantir/tslint) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/851/testling.png' alt='Testling'/> [Testling](https://ci.testling.com/) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/1682/IMG_4636.PNG' alt='Webpack'/> [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/service/5848/44mC-kJ3.jpg' alt='Yarn'/> [Yarn](https://yarnpkg.com/) – Front End Package Manager
+- <img width='25' height='25' src='https://img.stackshare.io/service/2932/zuul.png' alt='Zuul'/> [Zuul](https://github.com/Netflix/zuul) – Microservices Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/844/iruTC031.png' alt='gulp'/> [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/service/7054/preview.jpeg' alt='jsdom'/> [jsdom](https://github.com/jsdom/jsdom) – Headless Browsers
+- <img width='25' height='25' src='https://img.stackshare.io/service/1309/default_64cb55c1a8367f51e710697a54340fc497cfe6a1.png' alt='ngrok'/> [ngrok](https://ngrok.com/) – localhost Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/5577/preview.png' alt='nodemon'/> [nodemon](http://nodemon.io/) – node.js Application Monitoring
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='pre-commit'/> [pre-commit](http://jish.github.io/pre-commit/) – Git Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg' alt='rollup'/> [rollup](http://rollupjs.org/) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/service/825/hnc3q-7x.jpg' alt='Buffer'/> [Buffer](https://bufferapp.com/) – Social Media Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/9/TtrFaQ3j_400x400.png' alt='Chartio'/> [Chartio](https://chartio.com) – Business Intelligence
+- <img width='25' height='25' src='https://img.stackshare.io/service/2484/2r9Bf4lE_400x400.jpg' alt='Gitbook'/> [Gitbook](http://gitbook.com/) – Documentation as a Service & Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/6925/preview.png' alt='Ora'/> [Ora](https://ora.pm/) – Project Management
+- <img width='25' height='25' src='https://img.stackshare.io/service/5/default_aa447805966bbb635af0d113e93e1f1030497052.jpg' alt='Segment'/> [Segment](https://segment.com/?utm_medium=paid-display&utm_source=stackshare&utm_campaign=analytics) – Analytics Integrator
+- <img width='25' height='25' src='https://img.stackshare.io/service/8705/768px-Firefox_Logo__2017.svg.png' alt='Firefox'/> [Firefox](https://www.mozilla.org/en-US/firefox/) – Web Browser
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='Immutable.js'/> [Immutable.js](http://facebook.github.io/immutable-js/) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/2438/lodash.png' alt='Lodash'/> [Lodash](https://lodash.com) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png' alt='Moment.js'/> [Moment.js](http://momentjs.com/) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/729/Logo.png' alt='PonyDebugger'/> [PonyDebugger](https://github.com/square/PonyDebugger) – Mobile Runtime Inspector
+- <img width='25' height='25' src='https://img.stackshare.io/service/4697/default_2d5a1d7c5eb520cdeb7db120e767345004a1d0d4.png' alt='Q'/> [Q](https://github.com/kriskowal/q) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/3076/Ramda-01.png' alt='Ramda'/> [Ramda](https://ramdajs.com/) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/6422/react-navigation.png' alt='React Navigation'/> [React Navigation](https://reactnavigation.org/) – Cross-Platform Mobile Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/1150/underscore-js.png' alt='Underscore'/> [Underscore](http://underscorejs.org/) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/4047/js-doc.png' alt='jsdoc'/> [jsdoc](http://usejsdoc.org/) – Documentation as a Service & Tools
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [bob-wise0/synp](https://github.com/bob-wise0/synp)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|776<br/>Tools used|11<br/>Contributors|11/08/23 <br/>Report generated|04/10/22<br/>Last commit date|
-|------|------|------|------|
+|789<br/>Tools used|03/28/24 <br/>Report generated|
+|------|------|
 </div>
 
-## <img src='https://img.stackshare.io/languages.svg'/> Languages (3)
+## <img src='https://img.stackshare.io/languages.svg'/> Languages (4)
 <table><tr>
   <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/no-img-open-source.png' alt='EJS'>
+  <br>
+  <sub><a href="https://ejs.co/">EJS</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'>
   <br>
   <sub><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></sub>
@@ -205,7 +241,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/frameworks.svg'/> Frameworks (17)
+## <img src='https://img.stackshare.io/frameworks.svg'/> Frameworks (20)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png' alt='Autoprefixer'>
@@ -240,6 +276,14 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/7697/28016430.jpeg' alt='Matcha'>
+  <br>
+  <sub><a href="https://gomatcha.io/">Matcha</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/3318/default_9180d788d095cc3a5cb0d21aba527ddb424dcf32.png' alt='Material Design Lite'>
   <br>
   <sub><a href="http://www.getmdl.io/">Material Design Lite</a></sub>
@@ -263,6 +307,16 @@ Full tech stack [here](/techstack.md)
   <sub></sub>
 </td>
 
+</tr>
+<tr>
+  <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/3339/rlFcjEdI.png' alt='PostCSS'>
+  <br>
+  <sub><a href="https://github.com/postcss/postcss">PostCSS</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
 <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/4388/preact.png' alt='Preact'>
   <br>
@@ -271,9 +325,7 @@ Full tech stack [here](/techstack.md)
   <sub>v8.2.5</sub>
 </td>
 
-</tr>
-<tr>
-  <td align='center'>
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/3597/o_bigger_400x400.png' alt='Prototype'>
   <br>
   <sub><a href="http://prototypejs.org/">Prototype</a></sub>
@@ -321,7 +373,9 @@ Full tech stack [here](/techstack.md)
   <sub>v5.0.0</sub>
 </td>
 
-<td align='center'>
+</tr>
+<tr>
+  <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1171/jCR2zNJV.png' alt='Sass'>
   <br>
   <sub><a href="http://sass-lang.com/">Sass</a></sub>
@@ -337,9 +391,15 @@ Full tech stack [here](/techstack.md)
   <sub>v3.2.15</sub>
 </td>
 
-</tr>
-<tr>
-  <td align='center'>
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/4709/Xpand_Marke_32x32_400x400.png' alt='Xtend'>
+  <br>
+  <sub><a href="http://www.eclipse.org/xtend/">Xtend</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png' alt='css-loader'>
   <br>
   <sub><a href="https://github.com/webpack-contrib/css-loader">css-loader</a></sub>
@@ -371,7 +431,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/devops.svg'/> DevOps (49)
+## <img src='https://img.stackshare.io/devops.svg'/> DevOps (52)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/2739/-1wfGjNw.png' alt='Babel'>
@@ -514,6 +574,14 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/845/falgg2jybmhgk16y62lr.png' alt='Grunt'>
+  <br>
+  <sub><a href="http://gruntjs.com/">Grunt</a></sub>
+  <br>
+  <sub>v0.4.1</sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/3125/xSVaubUG_400x400.jpg' alt='Hyper'>
   <br>
   <sub><a href="https://hyper.sh/">Hyper</a></sub>
@@ -561,7 +629,9 @@ Full tech stack [here](/techstack.md)
   <sub></sub>
 </td>
 
-<td align='center'>
+</tr>
+<tr>
+  <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'>
   <br>
   <sub><a href="http://facebook.github.io/jest/">Jest</a></sub>
@@ -569,9 +639,7 @@ Full tech stack [here](/techstack.md)
   <sub>v21.2.1</sub>
 </td>
 
-</tr>
-<tr>
-  <td align='center'>
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/2943/556a74a47d94ecff7ed4d94a8f96c0c0.png' alt='Kadira'>
   <br>
   <sub><a href="https://kadira.io">Kadira</a></sub>
@@ -612,6 +680,14 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg' alt='NuGet'>
+  <br>
+  <sub><a href="https://www.nuget.org/">NuGet</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1832/phantomjs.png' alt='PhantomJS'>
   <br>
   <sub><a href="https://phantomjs.org/">PhantomJS</a></sub>
@@ -619,7 +695,9 @@ Full tech stack [here](/techstack.md)
   <sub>v2.1.7</sub>
 </td>
 
-<td align='center'>
+</tr>
+<tr>
+  <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg' alt='Prettier'>
   <br>
   <sub><a href="https://prettier.io/">Prettier</a></sub>
@@ -635,9 +713,7 @@ Full tech stack [here](/techstack.md)
   <sub></sub>
 </td>
 
-</tr>
-<tr>
-  <td align='center'>
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/852/1781835.png' alt='RequireJS'>
   <br>
   <sub><a href="http://requirejs.org/">RequireJS</a></sub>
@@ -651,6 +727,14 @@ Full tech stack [here](/techstack.md)
   <sub><a href="http://sinonjs.org/">SinonJS</a></sub>
   <br>
   <sub>v9.2.4</sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/6588/default_2be28faff45ce2d9a308cf9c36820697303a7c11.jpg' alt='Split'>
+  <br>
+  <sub><a href="http://www.split.io">Split</a></sub>
+  <br>
+  <sub></sub>
 </td>
 
 <td align='center'>
@@ -677,7 +761,9 @@ Full tech stack [here](/techstack.md)
   <sub></sub>
 </td>
 
-<td align='center'>
+</tr>
+<tr>
+  <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/5561/303157.png' alt='TSLint'>
   <br>
   <sub><a href="https://github.com/palantir/tslint">TSLint</a></sub>
@@ -701,9 +787,7 @@ Full tech stack [here](/techstack.md)
   <sub>v3.8.1</sub>
 </td>
 
-</tr>
-<tr>
-  <td align='center'>
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/5848/44mC-kJ3.jpg' alt='Yarn'>
   <br>
   <sub><a href="https://yarnpkg.com/">Yarn</a></sub>
@@ -743,7 +827,9 @@ Full tech stack [here](/techstack.md)
   <sub></sub>
 </td>
 
-<td align='center'>
+</tr>
+<tr>
+  <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/5577/preview.png' alt='nodemon'>
   <br>
   <sub><a href="http://nodemon.io/">nodemon</a></sub>
@@ -767,9 +853,7 @@ Full tech stack [here](/techstack.md)
   <sub>v1.1.3</sub>
 </td>
 
-</tr>
-<tr>
-  <td align='center'>
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg' alt='rollup'>
   <br>
   <sub><a href="http://rollupjs.org/">rollup</a></sub>
@@ -780,12 +864,36 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/saas.svg'/> Software as a Service (SaaS) (2)
+## <img src='https://img.stackshare.io/saas.svg'/> Software as a Service (SaaS) (5)
 <table><tr>
   <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/825/hnc3q-7x.jpg' alt='Buffer'>
+  <br>
+  <sub><a href="https://bufferapp.com/">Buffer</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/9/TtrFaQ3j_400x400.png' alt='Chartio'>
   <br>
   <sub><a href="https://chartio.com">Chartio</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/2484/2r9Bf4lE_400x400.jpg' alt='Gitbook'>
+  <br>
+  <sub><a href="http://gitbook.com/">Gitbook</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/6925/preview.png' alt='Ora'>
+  <br>
+  <sub><a href="https://ora.pm/">Ora</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -801,7 +909,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## Other (9)
+## Other (21)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/8705/768px-Firefox_Logo__2017.svg.png' alt='Firefox'>
@@ -817,6 +925,14 @@ Full tech stack [here](/techstack.md)
   <sub><a href="http://facebook.github.io/immutable-js/">Immutable.js</a></sub>
   <br>
   <sub>v3.8.2</sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/2198/8018201.png' alt='JSCS'>
+  <br>
+  <sub><a href="https://github.com/jscs-dev/node-jscs">JSCS</a></sub>
+  <br>
+  <sub></sub>
 </td>
 
 <td align='center'>
@@ -844,6 +960,14 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/4697/default_2d5a1d7c5eb520cdeb7db120e767345004a1d0d4.png' alt='Q'>
+  <br>
+  <sub><a href="https://github.com/kriskowal/q">Q</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/3076/Ramda-01.png' alt='Ramda'>
   <br>
   <sub><a href="https://ramdajs.com/">Ramda</a></sub>
@@ -851,10 +975,28 @@ Full tech stack [here](/techstack.md)
   <sub>v0.22.1</sub>
 </td>
 
-<td align='center'>
+</tr>
+<tr>
+  <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/6422/react-navigation.png' alt='React Navigation'>
   <br>
   <sub><a href="https://reactnavigation.org/">React Navigation</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/3722/lejvzrnlpb308aftn31u_normal.png' alt='Tape'>
+  <br>
+  <sub><a href="https://www.npmjs.com/package/tape">Tape</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/1150/underscore-js.png' alt='Underscore'>
+  <br>
+  <sub><a href="http://underscorejs.org/">Underscore</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -867,12 +1009,76 @@ Full tech stack [here](/techstack.md)
   <sub></sub>
 </td>
 
-</tr>
-<tr>
-  <td align='center'>
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/6612/ehMiE-wz_normal.jpg' alt='cssnano'>
+  <br>
+  <sub><a href="http://cssnano.co/">cssnano</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/8085/15352388.png' alt='flow-bin'>
+  <br>
+  <sub><a href="github.com/flowtype/flow-bin">flow-bin</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/9527/5502029.jpeg' alt='husky'>
   <br>
   <sub><a href="https://github.com/typicode/husky">husky</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/4047/js-doc.png' alt='jsdoc'>
+  <br>
+  <sub><a href="http://usejsdoc.org/">jsdoc</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+</tr>
+<tr>
+  <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/10577/11071.jpeg' alt='lint-staged'>
+  <br>
+  <sub><a href="https://github.com/okonet/lint-staged">lint-staged</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/10156/12867925.png' alt='semantic-release'>
+  <br>
+  <sub><a href="https://github.com/semantic-release/semantic-release">semantic-release</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/8032/pBeeJQDQ_normal.png' alt='superagent library'>
+  <br>
+  <sub><a href="https://visionmedia.github.io/superagent/">superagent library</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/8443/2473585.png' alt='svgo'>
+  <br>
+  <sub><a href="https://github.com/svg/svgo">svgo</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/4535/no-img-open-source.png' alt='xo'>
+  <br>
+  <sub><a href="https://www.npmjs.com/package/xo">xo</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -881,12 +1087,60 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (694)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (685)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (694)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (685)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
+|[cryptiles](https://www.npmjs.com/cryptiles)|v3.1.2|N/A|N/A |BSD-3-Clause|[CVE-2018-1000620](https://github.com/advisories/GHSA-rq8g-5pc5-wrhr) (Critical)|
+|[fsevents](https://www.npmjs.com/fsevents)|v1.0.0|N/A|N/A |MIT|[CVE-2023-45311](https://github.com/advisories/GHSA-8r6j-v8pm-fqw3) (Critical)|
+|[https-proxy-agent](https://www.npmjs.com/https-proxy-agent)|v0.3.6|N/A|N/A |MIT|[CVE-2018-3739](https://github.com/advisories/GHSA-8g7p-74h8-hg48) (Critical)<br/>[](https://github.com/advisories/GHSA-qrg3-f6h6-vq8q) (High)<br/>[](https://github.com/advisories/GHSA-pc5p-h8pf-mvwp) (Moderate)|
+|[loader-utils](https://www.npmjs.com/loader-utils)|v1.1.0|N/A|N/A |MIT|[CVE-2022-37601](https://github.com/advisories/GHSA-76p3-8jx3-jpfq) (Critical)<br/>[CVE-2022-37599](https://github.com/advisories/GHSA-hhq3-ff78-jv3g) (High)<br/>[CVE-2022-37603](https://github.com/advisories/GHSA-3rfm-jhwj-7488) (High)|
+|[lodash-es](https://www.npmjs.com/lodash-es)|v4.17.4|N/A|N/A |MIT|[CVE-2019-10744](https://github.com/advisories/GHSA-jf85-cpcp-j695) (Critical)<br/>[CVE-2021-23337](https://github.com/advisories/GHSA-35jh-r3h4-6jhm) (High)<br/>[CVE-2020-8203](https://github.com/advisories/GHSA-p6mc-m468-83gw) (High)<br/>[CVE-2019-1010266](https://github.com/advisories/GHSA-x5rq-j2xg-h7qm) (Moderate)<br/>[CVE-2020-28500](https://github.com/advisories/GHSA-29mw-wpgm-hmr9) (Moderate)|
+|[lodash.merge](https://www.npmjs.com/lodash.merge)|v4.6.0|N/A|N/A |MIT|[CVE-2019-10744](https://github.com/advisories/GHSA-jf85-cpcp-j695) (Critical)<br/>[](https://github.com/advisories/GHSA-2m96-9w4j-wgv7) (High)<br/>[](https://github.com/advisories/GHSA-h726-x36v-rx45) (High)|
+|[minimist](https://www.npmjs.com/minimist)|v1.2.0|N/A|N/A |MIT|[CVE-2021-44906](https://github.com/advisories/GHSA-xvch-5gv4-984h) (Critical)<br/>[](https://github.com/advisories/GHSA-7fhm-mqm4-2wp7) (Moderate)<br/>[CVE-2020-7598](https://github.com/advisories/GHSA-vh95-rmgr-6w4m) (Moderate)|
+|[morgan](https://www.npmjs.com/morgan)|v1.9.0|N/A|N/A |MIT|[CVE-2019-5413](https://github.com/advisories/GHSA-gwg9-rgvj-4h5j) (Critical)|
+|[simple-git](https://www.npmjs.com/simple-git)|v1.65.0|N/A|N/A |MIT|[CVE-2022-25860](https://github.com/advisories/GHSA-9w5j-4mwv-2wj8) (Critical)<br/>[CVE-2022-24433](https://github.com/advisories/GHSA-3f95-r44v-8mrg) (High)<br/>[CVE-2022-24066](https://github.com/advisories/GHSA-28xr-mwxg-3qc8) (High)<br/>[CVE-2022-25912](https://github.com/advisories/GHSA-9p95-fxvg-qgq2) (High)|
+|[async](https://www.npmjs.com/async)|v2.6.0|N/A|N/A |MIT|[CVE-2021-43138](https://github.com/advisories/GHSA-fwr7-v2mv-hh25) (High)|
+|[csv-parse](https://www.npmjs.com/csv-parse)|v1.2.1|N/A|N/A |MIT|[CVE-2019-17592](https://github.com/advisories/GHSA-582f-p4pg-xc74) (High)|
+|[debug](https://www.npmjs.com/debug)|v2.6.8|N/A|N/A |MIT|[CVE-2017-20165](https://github.com/advisories/GHSA-9vvw-cc9w-f27h) (High)<br/>[CVE-2017-16137](https://github.com/advisories/GHSA-gxpj-cx7g-858c) (Moderate)|
+|[dot](https://www.npmjs.com/dot)|v1.1.1|N/A|N/A |MIT|[CVE-2020-8141](https://github.com/advisories/GHSA-297x-8xj4-vcxv) (High)<br/>[](https://github.com/advisories/GHSA-4859-gpc7-4j66) (Moderate)|
+|[dot-prop](https://www.npmjs.com/dot-prop)|v4.2.0|N/A|N/A |MIT|[CVE-2020-8116](https://github.com/advisories/GHSA-ff7x-qrg7-qggm) (High)|
+|[elliptic](https://www.npmjs.com/elliptic)|v6.4.0|N/A|N/A |MIT|[CVE-2020-13822](https://github.com/advisories/GHSA-vh7m-p724-62c2) (High)<br/>[CVE-2020-28498](https://github.com/advisories/GHSA-r9p9-mrjm-926w) (Moderate)|
+|[express](https://www.npmjs.com/express)|v4.16.2|N/A|N/A |MIT|[CVE-2022-24999](https://github.com/advisories/GHSA-hrpp-h998-j3pp) (High)|
+|[hoek](https://www.npmjs.com/hoek)|v4.2.0|N/A|N/A |BSD-3-Clause|[CVE-2018-3728](https://github.com/advisories/GHSA-jp4x-w63m-7wgm) (High)<br/>[CVE-2020-36604](https://github.com/advisories/GHSA-c429-5p7v-vgjp) (High)|
+|[jison](https://www.npmjs.com/jison)|v0.4.15|N/A|N/A |MIT|[CVE-2020-8178](https://github.com/advisories/GHSA-vr9x-mm65-2438) (High)|
+|[js-yaml](https://www.npmjs.com/js-yaml)|v3.7.0|N/A|N/A |MIT|[](https://github.com/advisories/GHSA-8j8c-7jfh-h6hx) (High)<br/>[](https://github.com/advisories/GHSA-2pr6-76vf-7546) (Moderate)|
+|[json5](https://www.npmjs.com/json5)|v0.5.1|N/A|N/A |MIT|[CVE-2022-46175](https://github.com/advisories/GHSA-9c47-m6qq-7p4h) (High)|
+|[lodash.pick](https://www.npmjs.com/lodash.pick)|v4.4.0|N/A|N/A |MIT|[CVE-2020-8203](https://github.com/advisories/GHSA-p6mc-m468-83gw) (High)|
+|[marked](https://www.npmjs.com/marked)|v0.3.6|N/A|N/A |MIT|[CVE-2017-16114](https://github.com/advisories/GHSA-x5pg-88wf-qq4p) (High)<br/>[CVE-2022-21681](https://github.com/advisories/GHSA-5v2h-r2cx-5xgj) (High)<br/>[CVE-2022-21680](https://github.com/advisories/GHSA-rrrm-qjm4-v8hf) (High)<br/>[](https://github.com/advisories/GHSA-wjmf-58vc-xqjr) (Moderate)<br/>[](https://github.com/advisories/GHSA-8wp3-cp9v-44fm) (Moderate)<br/>[CVE-2017-17461](https://github.com/advisories/GHSA-crmx-v835-hcp4) (Moderate)<br/>[CVE-2017-1000427](https://github.com/advisories/GHSA-7px7-7xjx-hxm8) (Moderate)|
+|[minimatch](https://www.npmjs.com/minimatch)|v3.0.4|N/A|N/A |ISC|[CVE-2022-3517](https://github.com/advisories/GHSA-f8q6-p94x-37v3) (High)|
+|[moment](https://www.npmjs.com/moment)|v2.20.1|N/A|N/A |MIT|[CVE-2022-31129](https://github.com/advisories/GHSA-wc69-rhjr-hc9g) (High)<br/>[CVE-2022-24785](https://github.com/advisories/GHSA-8hfj-j24r-96c4) (High)|
+|[node-fetch](https://www.npmjs.com/node-fetch)|v1.7.3|N/A|N/A |MIT|[CVE-2022-0235](https://github.com/advisories/GHSA-r683-j2x4-v87g) (High)<br/>[CVE-2020-15168](https://github.com/advisories/GHSA-w7rc-rwvf-8q5r) (Low)|
+|[qs](https://www.npmjs.com/qs)|v6.5.1|N/A|N/A |BSD-3-Clause|[CVE-2022-24999](https://github.com/advisories/GHSA-hrpp-h998-j3pp) (High)|
+|[semantic-release](https://www.npmjs.com/semantic-release)|v6.3.2|N/A|N/A |MIT|[CVE-2020-26226](https://github.com/advisories/GHSA-r2j6-p67h-q639) (High)|
+|[shelljs](https://www.npmjs.com/shelljs)|v0.7.8|N/A|N/A |BSD-3-Clause|[CVE-2022-0144](https://github.com/advisories/GHSA-4rq4-32rv-6wp6) (High)<br/>[](https://github.com/advisories/GHSA-64g7-mvw6-v9qj) (Moderate)|
+|[ua-parser-js](https://www.npmjs.com/ua-parser-js)|v0.7.17|N/A|N/A |AGPL-3.0|[CVE-2020-7793](https://github.com/advisories/GHSA-394c-5j6w-4xmx) (High)<br/>[CVE-2020-7733](https://github.com/advisories/GHSA-662x-fhqg-9p8v) (High)<br/>[CVE-2021-27292](https://github.com/advisories/GHSA-78cj-fxph-m83p) (High)<br/>[CVE-2022-25927](https://github.com/advisories/GHSA-fhg7-m89q-25r3) (High)|
+|[webpack-dev-server](https://www.npmjs.com/webpack-dev-server)|v2.4.2|N/A|N/A |MIT|[CVE-2018-14732](https://github.com/advisories/GHSA-cf66-xwfp-gvc4) (High)|
+|[acorn](https://www.npmjs.com/acorn)|v5.2.1|N/A|N/A |MIT|[](https://github.com/advisories/GHSA-7fhm-mqm4-2wp7) (Moderate)|
+|[ajv](https://www.npmjs.com/ajv)|v5.3.0|N/A|N/A |MIT|[CVE-2020-15366](https://github.com/advisories/GHSA-v88g-cgmw-v5xw) (Moderate)|
+|[bl](https://www.npmjs.com/bl)|v1.0.0|N/A|N/A |MIT|[CVE-2020-8244](https://github.com/advisories/GHSA-pp7h-53gx-mx7r) (Moderate)<br/>[](https://github.com/advisories/GHSA-wrw9-m778-g6mc) (Moderate)|
+|[connect](https://www.npmjs.com/connect)|v2.3.0|N/A|N/A |MIT|[CVE-2018-3717](https://github.com/advisories/GHSA-rch9-xh7r-mqgw) (Moderate)<br/>[CVE-2013-7371](https://github.com/advisories/GHSA-6w62-83g6-rfhj) (Moderate)<br/>[CVE-2013-7370](https://github.com/advisories/GHSA-3fw8-66wf-pr7m) (Low)|
+|[extend](https://www.npmjs.com/extend)|v3.0.1|N/A|N/A |MIT|[CVE-2018-16492](https://github.com/advisories/GHSA-qrmc-fj45-qfc2) (Moderate)|
+|[got](https://www.npmjs.com/got)|v6.7.1|N/A|N/A |MIT|[CVE-2022-33987](https://github.com/advisories/GHSA-pfrx-2q88-qq97) (Moderate)|
+|[hbs](https://www.npmjs.com/hbs)|v4.0.1|N/A|N/A |MIT|[CVE-2021-32822](https://github.com/advisories/GHSA-7f5c-rpf4-86p8) (Moderate)|
+|[hosted-git-info](https://www.npmjs.com/hosted-git-info)|v2.5.0|N/A|N/A |ISC|[CVE-2021-23362](https://github.com/advisories/GHSA-43f8-2h32-f4cj) (Moderate)|
+|[node-sass](https://www.npmjs.com/node-sass)|v4.7.2|N/A|N/A |MIT|[](https://github.com/advisories/GHSA-9v62-24cr-58cx) (Moderate)<br/>[CVE-2020-24025](https://github.com/advisories/GHSA-r8f7-9pfq-mjmv) (Moderate)|
+|[react-dom](https://www.npmjs.com/react-dom)|v16.3.2|N/A|N/A |MIT|[CVE-2018-6341](https://github.com/advisories/GHSA-mvjj-gqq2-p4hw) (Moderate)|
+|[request](https://www.npmjs.com/request)|v2.83.0|N/A|N/A |Apache-2.0|[CVE-2023-28155](https://github.com/advisories/GHSA-p8p7-x288-28g6) (Moderate)|
+|[standard-version](https://www.npmjs.com/standard-version)|v4.0.0|N/A|N/A |ISC|[](https://github.com/advisories/GHSA-7xcx-6wjh-7xp2) (Moderate)|
+|[superagent](https://www.npmjs.com/superagent)|v1.8.3|N/A|N/A |MIT|[CVE-2017-16129](https://github.com/advisories/GHSA-8225-6cvr-8pqp) (Moderate)|
+|[sync-exec](https://www.npmjs.com/sync-exec)|v0.6.2|N/A|N/A |MIT|[CVE-2017-16024](https://github.com/advisories/GHSA-38h8-x697-gh8q) (Moderate)|
+|[tough-cookie](https://www.npmjs.com/tough-cookie)|v2.3.3|N/A|N/A |BSD-3-Clause|[CVE-2023-26136](https://github.com/advisories/GHSA-72xf-g2v4-qvf3) (Moderate)|
+|[underscore.string](https://www.npmjs.com/underscore.string)|v3.2.0|N/A|N/A |MIT|[](https://github.com/advisories/GHSA-v2p6-4mp7-3r9v) (Moderate)|
+|[word-wrap](https://www.npmjs.com/word-wrap)|v1.2.3|N/A|N/A |MIT|[CVE-2023-26115](https://github.com/advisories/GHSA-j8xg-fqg3-53r7) (Moderate)|
+|[yargs-parser](https://www.npmjs.com/yargs-parser)|v7.0.0|N/A|N/A |ISC|[CVE-2020-7608](https://github.com/advisories/GHSA-p9pc-299p-vxgp) (Moderate)|
 |[@hot-loader/react-dom](https://www.npmjs.com/@hot-loader/react-dom)|v16.13.0|N/A|N/A |MIT|N/A|
 |[@kadira/storybook](https://www.npmjs.com/@kadira/storybook)|v2.35.3|N/A|N/A |MIT|N/A|
 |[@semantic-release/npm](https://www.npmjs.com/@semantic-release/npm)|v7.0.5|N/A|N/A |MIT|N/A|
@@ -896,9 +1150,7 @@ Full tech stack [here](/techstack.md)
 |[@storybook/react](https://www.npmjs.com/@storybook/react)|v3.2.15|N/A|N/A |MIT|N/A|
 |[@types/react](https://www.npmjs.com/@types/react)|v16.0.22|N/A|N/A |MIT|N/A|
 |[accepts](https://www.npmjs.com/accepts)|v1.3.4|N/A|N/A |MIT|N/A|
-|[acorn](https://www.npmjs.com/acorn)|v5.2.1|N/A|N/A |MIT|[](https://github.com/advisories/GHSA-7fhm-mqm4-2wp7) (Moderate)|
 |[after](https://www.npmjs.com/after)|v0.8.2|N/A|N/A |MIT|N/A|
-|[ajv](https://www.npmjs.com/ajv)|v5.3.0|N/A|N/A |MIT|[CVE-2020-15366](https://github.com/advisories/GHSA-v88g-cgmw-v5xw) (Moderate)|
 |[ajv-keywords](https://www.npmjs.com/ajv-keywords)|v2.1.1|N/A|N/A |MIT|N/A|
 |[all-contributors-cli](https://www.npmjs.com/all-contributors-cli)|v3.0.7|N/A|N/A |MIT|N/A|
 |[ansi](https://www.npmjs.com/ansi)|N/A|N/A|N/A |MIT|N/A|
@@ -909,7 +1161,6 @@ Full tech stack [here](/techstack.md)
 |[array-flatten](https://www.npmjs.com/array-flatten)|v1.1.1|N/A|N/A |MIT|N/A|
 |[assert](https://www.npmjs.com/assert)|v1.4.1|N/A|N/A |MIT|N/A|
 |[assert-plus](https://www.npmjs.com/assert-plus)|v1.0.0|N/A|N/A |MIT|N/A|
-|[async](https://www.npmjs.com/async)|v2.6.0|N/A|N/A |MIT|[CVE-2021-43138](https://github.com/advisories/GHSA-fwr7-v2mv-hh25) (High)|
 |[ava](https://www.npmjs.com/ava)|v0.17.0|N/A|N/A |MIT|N/A|
 |[aws4](https://www.npmjs.com/aws4)|v1.6.0|N/A|N/A |MIT|N/A|
 |[babel-cli](https://www.npmjs.com/babel-cli)|v6.24.1|N/A|N/A |MIT|N/A|
@@ -1010,7 +1261,6 @@ Full tech stack [here](/techstack.md)
 |[better-assert](https://www.npmjs.com/better-assert)|N/A|N/A|N/A |MIT|N/A|
 |[big.js](https://www.npmjs.com/big.js)|v3.2.0|N/A|N/A |MIT|N/A|
 |[bindings](https://www.npmjs.com/bindings)|v1.2.1|N/A|N/A |MIT|N/A|
-|[bl](https://www.npmjs.com/bl)|v1.0.0|N/A|N/A |MIT|[CVE-2020-8244](https://github.com/advisories/GHSA-pp7h-53gx-mx7r) (Moderate)<br/>[](https://github.com/advisories/GHSA-wrw9-m778-g6mc) (Moderate)|
 |[blanket](https://www.npmjs.com/blanket)|v1.1.6|N/A|N/A |MIT|N/A|
 |[bluebird](https://www.npmjs.com/bluebird)|v3.1.5|N/A|N/A |MIT|N/A|
 |[bn.js](https://www.npmjs.com/bn.js)|v4.11.8|N/A|N/A |MIT|N/A|
@@ -1023,7 +1273,6 @@ Full tech stack [here](/techstack.md)
 |[browserify-istanbul](https://www.npmjs.com/browserify-istanbul)|v2.0.0|N/A|N/A |MIT|N/A|
 |[browserslist](https://www.npmjs.com/browserslist)|v2.9.0|N/A|N/A |MIT|N/A|
 |[buble](https://www.npmjs.com/buble)|v0.12.5|N/A|N/A |MIT|N/A|
-|[buffer](https://www.npmjs.com/buffer)|v4.9.1|N/A|N/A |MIT|N/A|
 |[buffer-equal](https://www.npmjs.com/buffer-equal)|v1.0.0|N/A|N/A |MIT|N/A|
 |[builtin-modules](https://www.npmjs.com/builtin-modules)|v1.1.1|N/A|N/A |MIT|N/A|
 |[bundle-collapser](https://www.npmjs.com/bundle-collapser)|v1.2.1|N/A|N/A |MIT|N/A|
@@ -1035,6 +1284,7 @@ Full tech stack [here](/techstack.md)
 |[case-sensitive-paths-webpack-plugin](https://www.npmjs.com/case-sensitive-paths-webpack-plugin)|v2.1.1|N/A|N/A |MIT|N/A|
 |[chai-as-promised](https://www.npmjs.com/chai-as-promised)|v5.2.0|N/A|N/A |WTFPL|N/A|
 |[chai-spies](https://www.npmjs.com/chai-spies)|v0.7.1|N/A|N/A |MIT|N/A|
+|[chalk](https://www.npmjs.com/chalk)|v1.1.3|N/A|N/A |MIT|N/A|
 |[cheerio](https://www.npmjs.com/cheerio)|v0.22.0|N/A|N/A |MIT|N/A|
 |[chokidar](https://www.npmjs.com/chokidar)|v1.7.0|N/A|N/A |MIT|N/A|
 |[chokidar-cli](https://www.npmjs.com/chokidar-cli)|v0.2.1|N/A|N/A |MIT|N/A|
@@ -1059,7 +1309,6 @@ Full tech stack [here](/techstack.md)
 |[concat-stream](https://www.npmjs.com/concat-stream)|v1.6.0|N/A|N/A |MIT|N/A|
 |[concurrently](https://www.npmjs.com/concurrently)|v3.1.0|N/A|N/A |MIT|N/A|
 |[configstore](https://www.npmjs.com/configstore)|v3.1.1|N/A|N/A |BSD-2-Clause|N/A|
-|[connect](https://www.npmjs.com/connect)|v2.3.0|N/A|N/A |MIT|[CVE-2018-3717](https://github.com/advisories/GHSA-rch9-xh7r-mqgw) (Moderate)<br/>[CVE-2013-7371](https://github.com/advisories/GHSA-6w62-83g6-rfhj) (Moderate)<br/>[CVE-2013-7370](https://github.com/advisories/GHSA-3fw8-66wf-pr7m) (Low)|
 |[connect-redis](https://www.npmjs.com/connect-redis)|v2.4.1|N/A|N/A |MIT|N/A|
 |[content-disposition](https://www.npmjs.com/content-disposition)|v0.5.2|N/A|N/A |MIT|N/A|
 |[content-type](https://www.npmjs.com/content-type)|v1.0.4|N/A|N/A |MIT|N/A|
@@ -1079,14 +1328,11 @@ Full tech stack [here](/techstack.md)
 |[create-react-class](https://www.npmjs.com/create-react-class)|v15.5.2|N/A|N/A |MIT|N/A|
 |[cross-env](https://www.npmjs.com/cross-env)|v5.0.0|N/A|N/A |MIT|N/A|
 |[cross-spawn](https://www.npmjs.com/cross-spawn)|v5.1.0|N/A|N/A |MIT|N/A|
-|[cryptiles](https://www.npmjs.com/cryptiles)|v3.1.2|N/A|N/A |BSD-3-Clause|[CVE-2018-1000620](https://github.com/advisories/GHSA-rq8g-5pc5-wrhr) (Critical)|
 |[crypto-browserify](https://www.npmjs.com/crypto-browserify)|v3.12.0|N/A|N/A |MIT|N/A|
 |[cssnano](https://www.npmjs.com/cssnano)|v3.10.0|N/A|N/A |MIT|N/A|
 |[csso](https://www.npmjs.com/csso)|v2.3.2|N/A|N/A |MIT|N/A|
-|[csv-parse](https://www.npmjs.com/csv-parse)|v1.2.1|N/A|N/A |MIT|[CVE-2019-17592](https://github.com/advisories/GHSA-582f-p4pg-xc74) (High)|
 |[cz-conventional-changelog](https://www.npmjs.com/cz-conventional-changelog)|v2.0.0|N/A|N/A |MIT|N/A|
 |[dateformat](https://www.npmjs.com/dateformat)|v1.0.11|N/A|N/A |MIT|N/A|
-|[debug](https://www.npmjs.com/debug)|v2.6.8|N/A|N/A |MIT|[CVE-2017-20165](https://github.com/advisories/GHSA-9vvw-cc9w-f27h) (High)<br/>[CVE-2017-16137](https://github.com/advisories/GHSA-gxpj-cx7g-858c) (Moderate)|
 |[decamelize](https://www.npmjs.com/decamelize)|v1.2.0|N/A|N/A |MIT|N/A|
 |[deep-equal](https://www.npmjs.com/deep-equal)|v1.0.1|N/A|N/A |MIT|N/A|
 |[defined](https://www.npmjs.com/defined)|v1.0.0|N/A|N/A |MIT|N/A|
@@ -1099,10 +1345,6 @@ Full tech stack [here](/techstack.md)
 |[doctoc](https://www.npmjs.com/doctoc)|v0.15.0|N/A|N/A |MIT|N/A|
 |[doctrine](https://www.npmjs.com/doctrine)|v2.0.0|N/A|N/A |Apache-2.0|N/A|
 |[dom-helpers](https://www.npmjs.com/dom-helpers)|v3.2.1|N/A|N/A |MIT|N/A|
-|[dot](https://www.npmjs.com/dot)|v1.1.1|N/A|N/A |MIT|[CVE-2020-8141](https://github.com/advisories/GHSA-297x-8xj4-vcxv) (High)<br/>[](https://github.com/advisories/GHSA-4859-gpc7-4j66) (Moderate)|
-|[dot-prop](https://www.npmjs.com/dot-prop)|v4.2.0|N/A|N/A |MIT|[CVE-2020-8116](https://github.com/advisories/GHSA-ff7x-qrg7-qggm) (High)|
-|[ejs](https://www.npmjs.com/ejs)|v2.5.7|N/A|N/A |Apache-2.0|[CVE-2022-29078](https://github.com/advisories/GHSA-phwq-j96m-2c2q) (Critical)|
-|[elliptic](https://www.npmjs.com/elliptic)|v6.4.0|N/A|N/A |MIT|[CVE-2020-13822](https://github.com/advisories/GHSA-vh7m-p724-62c2) (High)<br/>[CVE-2020-28498](https://github.com/advisories/GHSA-r9p9-mrjm-926w) (Moderate)|
 |[enhanced-resolve](https://www.npmjs.com/enhanced-resolve)|v3.4.1|N/A|N/A |MIT|N/A|
 |[entities](https://www.npmjs.com/entities)|N/A|N/A|N/A |BSD-2-Clause|N/A|
 |[envify](https://www.npmjs.com/envify)|v3.4.0|N/A|N/A |MIT|N/A|
@@ -1152,11 +1394,9 @@ Full tech stack [here](/techstack.md)
 |[execa](https://www.npmjs.com/execa)|v0.7.0|N/A|N/A |MIT|N/A|
 |[expect](https://www.npmjs.com/expect)|v1.20.2|N/A|N/A |MIT|N/A|
 |[expect.js](https://www.npmjs.com/expect.js)|v0.3.1|N/A|N/A |MIT|N/A|
-|[express](https://www.npmjs.com/express)|v4.16.2|N/A|N/A |MIT|[CVE-2022-24999](https://github.com/advisories/GHSA-hrpp-h998-j3pp) (High)|
 |[express-http-proxy](https://www.npmjs.com/express-http-proxy)|v0.11.0|N/A|N/A |MIT|N/A|
 |[express-session](https://www.npmjs.com/express-session)|v1.15.6|N/A|N/A |MIT|N/A|
 |[expresso](https://www.npmjs.com/expresso)|N/A|N/A|N/A |MIT|N/A|
-|[extend](https://www.npmjs.com/extend)|v3.0.1|N/A|N/A |MIT|[CVE-2018-16492](https://github.com/advisories/GHSA-qrmc-fj45-qfc2) (Moderate)|
 |[extract-text-webpack-plugin](https://www.npmjs.com/extract-text-webpack-plugin)|v3.0.0|N/A|N/A |MIT|N/A|
 |[fast-deep-equal](https://www.npmjs.com/fast-deep-equal)|v1.0.0|N/A|N/A |MIT|N/A|
 |[faucet](https://www.npmjs.com/faucet)|v0.0.1|N/A|N/A |MIT|N/A|
@@ -1172,7 +1412,6 @@ Full tech stack [here](/techstack.md)
 |[formidable](https://www.npmjs.com/formidable)|v1.0.17|N/A|N/A |MIT|N/A|
 |[fresh](https://www.npmjs.com/fresh)|v0.5.2|N/A|N/A |MIT|N/A|
 |[fs-extra](https://www.npmjs.com/fs-extra)|v0.26.7|N/A|N/A |MIT|N/A|
-|[fsevents](https://www.npmjs.com/fsevents)|v1.0.0|N/A|N/A |MIT|[CVE-2023-45311](https://github.com/advisories/GHSA-8r6j-v8pm-fqw3) (Critical)|
 |[function-bind](https://www.npmjs.com/function-bind)|v1.1.1|N/A|N/A |MIT|N/A|
 |[fuse.js](https://www.npmjs.com/fuse.js)|v3.2.0|N/A|N/A |Apache-2.0|N/A|
 |[get-stream](https://www.npmjs.com/get-stream)|v3.0.0|N/A|N/A |MIT|N/A|
@@ -1183,9 +1422,7 @@ Full tech stack [here](/techstack.md)
 |[glamor](https://www.npmjs.com/glamor)|v2.20.40|N/A|N/A |MIT|N/A|
 |[glob](https://www.npmjs.com/glob)|v7.1.2|N/A|N/A |ISC|N/A|
 |[global](https://www.npmjs.com/global)|v4.3.2|N/A|N/A |MIT|N/A|
-|[got](https://www.npmjs.com/got)|v6.7.1|N/A|N/A |MIT|[CVE-2022-33987](https://github.com/advisories/GHSA-pfrx-2q88-qq97) (Moderate)|
 |[graceful-fs](https://www.npmjs.com/graceful-fs)|v4.1.11|N/A|N/A |ISC|N/A|
-|[grunt](https://www.npmjs.com/grunt)|v0.4.1|N/A|N/A |MIT|[CVE-2022-1537](https://github.com/advisories/GHSA-rm36-94g8-835r) (High)<br/>[CVE-2020-7729](https://github.com/advisories/GHSA-m5pj-vjjf-4m3h) (High)<br/>[CVE-2022-0436](https://github.com/advisories/GHSA-j383-35pm-c5h4) (Moderate)|
 |[grunt-browserify](https://www.npmjs.com/grunt-browserify)|v5.0.0|N/A|N/A |MIT|N/A|
 |[grunt-cli](https://www.npmjs.com/grunt-cli)|v1.2.0|N/A|N/A |MIT|N/A|
 |[grunt-contrib-clean](https://www.npmjs.com/grunt-contrib-clean)|v0.7.0|N/A|N/A |MIT|N/A|
@@ -1228,16 +1465,13 @@ Full tech stack [here](/techstack.md)
 |[gzip-size-cli](https://www.npmjs.com/gzip-size-cli)|v2.0.0|N/A|N/A |MIT|N/A|
 |[has](https://www.npmjs.com/has)|v1.0.1|N/A|N/A |MIT|N/A|
 |[hash.js](https://www.npmjs.com/hash.js)|v1.1.3|N/A|N/A |MIT|N/A|
-|[hbs](https://www.npmjs.com/hbs)|v4.0.1|N/A|N/A |MIT|[CVE-2021-32822](https://github.com/advisories/GHSA-7f5c-rpf4-86p8) (Moderate)|
-|[hoek](https://www.npmjs.com/hoek)|v4.2.0|N/A|N/A |BSD-3-Clause|[CVE-2018-3728](https://github.com/advisories/GHSA-jp4x-w63m-7wgm) (High)|
 |[hoist-non-react-statics](https://www.npmjs.com/hoist-non-react-statics)|v1.2.0|N/A|N/A |BSD-3-Clause|N/A|
-|[hosted-git-info](https://www.npmjs.com/hosted-git-info)|v2.5.0|N/A|N/A |ISC|[CVE-2021-23362](https://github.com/advisories/GHSA-43f8-2h32-f4cj) (Moderate)|
 |[html-entities](https://www.npmjs.com/html-entities)|v1.2.1|N/A|N/A |MIT|N/A|
 |[html-loader](https://www.npmjs.com/html-loader)|v0.5.1|N/A|N/A |MIT|N/A|
 |[html-webpack-plugin](https://www.npmjs.com/html-webpack-plugin)|v2.30.1|N/A|N/A |MIT|N/A|
 |[http-errors](https://www.npmjs.com/http-errors)|v1.6.2|N/A|N/A |MIT|N/A|
 |[http-server](https://www.npmjs.com/http-server)|v0.6.1|N/A|N/A |MIT|N/A|
-|[https-proxy-agent](https://www.npmjs.com/https-proxy-agent)|v0.3.6|N/A|N/A |MIT|[CVE-2018-3739](https://github.com/advisories/GHSA-8g7p-74h8-hg48) (Critical)<br/>[](https://github.com/advisories/GHSA-qrg3-f6h6-vq8q) (High)<br/>[](https://github.com/advisories/GHSA-pc5p-h8pf-mvwp) (Moderate)|
+|[husky](https://www.npmjs.com/husky)|v0.13.3|N/A|N/A |MIT|N/A|
 |[hyperquest](https://www.npmjs.com/hyperquest)|v2.0.0|N/A|N/A |MIT|N/A|
 |[iconv](https://www.npmjs.com/iconv)|v2.1.11|N/A|N/A |ISC|N/A|
 |[iconv-lite](https://www.npmjs.com/iconv-lite)|v0.4.19|N/A|N/A |MIT|N/A|
@@ -1264,19 +1498,15 @@ Full tech stack [here](/techstack.md)
 |[jade](https://www.npmjs.com/jade)|v1.11.0|N/A|N/A |MIT|N/A|
 |[jasmine-node](https://www.npmjs.com/jasmine-node)|v1.14.5|N/A|N/A |MIT|N/A|
 |[jest-cli](https://www.npmjs.com/jest-cli)|v0.9.2|N/A|N/A |MIT|N/A|
-|[jison](https://www.npmjs.com/jison)|v0.4.15|N/A|N/A |MIT|[CVE-2020-8178](https://github.com/advisories/GHSA-vr9x-mm65-2438) (High)|
 |[js-base64](https://www.npmjs.com/js-base64)|v2.3.2|N/A|N/A |BSD-3-Clause|N/A|
 |[js-beautify](https://www.npmjs.com/js-beautify)|v1.7.4|N/A|N/A |MIT|N/A|
-|[js-yaml](https://www.npmjs.com/js-yaml)|v3.7.0|N/A|N/A |MIT|[](https://github.com/advisories/GHSA-8j8c-7jfh-h6hx) (High)<br/>[](https://github.com/advisories/GHSA-2pr6-76vf-7546) (Moderate)|
 |[jscs](https://www.npmjs.com/jscs)|v3.0.7|N/A|N/A |MIT|N/A|
-|[jsdoc](https://www.npmjs.com/jsdoc)|v3.4.0|N/A|N/A |Apache-2.0|N/A|
 |[jsdoc-to-markdown](https://www.npmjs.com/jsdoc-to-markdown)|v3.0.0|N/A|N/A |MIT|N/A|
 |[jsesc](https://www.npmjs.com/jsesc)|v1.3.0|N/A|N/A |MIT|N/A|
 |[jshint-stylish](https://www.npmjs.com/jshint-stylish)|v0.4.0|N/A|N/A |MIT|N/A|
 |[json-loader](https://www.npmjs.com/json-loader)|v0.5.7|N/A|N/A |MIT|N/A|
 |[json-stable-stringify](https://www.npmjs.com/json-stable-stringify)|N/A|N/A|N/A |MIT|N/A|
 |[json-stringify-safe](https://www.npmjs.com/json-stringify-safe)|v5.0.1|N/A|N/A |ISC|N/A|
-|[json5](https://www.npmjs.com/json5)|v0.5.1|N/A|N/A |MIT|[CVE-2022-46175](https://github.com/advisories/GHSA-9c47-m6qq-7p4h) (High)|
 |[karma-babel-preprocessor](https://www.npmjs.com/karma-babel-preprocessor)|v6.0.1|N/A|N/A |ISC|N/A|
 |[karma-browserify](https://www.npmjs.com/karma-browserify)|v5.1.0|N/A|N/A |MIT|N/A|
 |[karma-browserstack-launcher](https://www.npmjs.com/karma-browserstack-launcher)|v1.3.0|N/A|N/A |MIT|N/A|
@@ -1309,8 +1539,6 @@ Full tech stack [here](/techstack.md)
 |[lint-staged](https://www.npmjs.com/lint-staged)|v3.4.1|N/A|N/A |MIT|N/A|
 |[listr](https://www.npmjs.com/listr)|v0.11.0|N/A|N/A |MIT|N/A|
 |[load-json-file](https://www.npmjs.com/load-json-file)|v2.0.0|N/A|N/A |MIT|N/A|
-|[loader-utils](https://www.npmjs.com/loader-utils)|v1.1.0|N/A|N/A |MIT|[CVE-2022-37601](https://github.com/advisories/GHSA-76p3-8jx3-jpfq) (Critical)<br/>[CVE-2022-37599](https://github.com/advisories/GHSA-hhq3-ff78-jv3g) (High)<br/>[CVE-2022-37603](https://github.com/advisories/GHSA-3rfm-jhwj-7488) (High)|
-|[lodash-es](https://www.npmjs.com/lodash-es)|v4.17.4|N/A|N/A |MIT|[CVE-2019-10744](https://github.com/advisories/GHSA-jf85-cpcp-j695) (Critical)<br/>[CVE-2021-23337](https://github.com/advisories/GHSA-35jh-r3h4-6jhm) (High)<br/>[CVE-2020-8203](https://github.com/advisories/GHSA-p6mc-m468-83gw) (High)<br/>[CVE-2019-1010266](https://github.com/advisories/GHSA-x5rq-j2xg-h7qm) (Moderate)<br/>[CVE-2020-28500](https://github.com/advisories/GHSA-29mw-wpgm-hmr9) (Moderate)|
 |[lodash.camelcase](https://www.npmjs.com/lodash.camelcase)|v4.3.0|N/A|N/A |MIT|N/A|
 |[lodash.debounce](https://www.npmjs.com/lodash.debounce)|v4.0.8|N/A|N/A |MIT|N/A|
 |[lodash.defaults](https://www.npmjs.com/lodash.defaults)|v4.2.0|N/A|N/A |MIT|N/A|
@@ -1318,8 +1546,6 @@ Full tech stack [here](/techstack.md)
 |[lodash.isplainobject](https://www.npmjs.com/lodash.isplainobject)|v4.0.6|N/A|N/A |MIT|N/A|
 |[lodash.keys](https://www.npmjs.com/lodash.keys)|v3.1.2|N/A|N/A |MIT|N/A|
 |[lodash.memoize](https://www.npmjs.com/lodash.memoize)|v4.1.2|N/A|N/A |MIT|N/A|
-|[lodash.merge](https://www.npmjs.com/lodash.merge)|v4.6.0|N/A|N/A |MIT|[CVE-2019-10744](https://github.com/advisories/GHSA-jf85-cpcp-j695) (Critical)<br/>[](https://github.com/advisories/GHSA-2m96-9w4j-wgv7) (High)<br/>[](https://github.com/advisories/GHSA-h726-x36v-rx45) (High)|
-|[lodash.pick](https://www.npmjs.com/lodash.pick)|v4.4.0|N/A|N/A |MIT|N/A|
 |[lodash.sortby](https://www.npmjs.com/lodash.sortby)|v4.7.0|N/A|N/A |MIT|N/A|
 |[lodash.uniq](https://www.npmjs.com/lodash.uniq)|v4.5.0|N/A|N/A |MIT|N/A|
 |[loose-envify](https://www.npmjs.com/loose-envify)|v1.3.1|N/A|N/A |MIT|N/A|
@@ -1327,8 +1553,6 @@ Full tech stack [here](/techstack.md)
 |[magic-string](https://www.npmjs.com/magic-string)|v0.10.2|N/A|N/A |MIT|N/A|
 |[make-dir](https://www.npmjs.com/make-dir)|v1.1.0|N/A|N/A |MIT|N/A|
 |[markdown-toc](https://www.npmjs.com/markdown-toc)|N/A|N/A|N/A |MIT|N/A|
-|[marked](https://www.npmjs.com/marked)|v0.3.6|N/A|N/A |MIT|[CVE-2022-21680](https://github.com/advisories/GHSA-rrrm-qjm4-v8hf) (High)<br/>[CVE-2017-16114](https://github.com/advisories/GHSA-x5pg-88wf-qq4p) (High)<br/>[CVE-2022-21681](https://github.com/advisories/GHSA-5v2h-r2cx-5xgj) (High)<br/>[](https://github.com/advisories/GHSA-wjmf-58vc-xqjr) (Moderate)<br/>[](https://github.com/advisories/GHSA-8wp3-cp9v-44fm) (Moderate)<br/>[CVE-2017-17461](https://github.com/advisories/GHSA-crmx-v835-hcp4) (Moderate)<br/>[CVE-2017-1000427](https://github.com/advisories/GHSA-7px7-7xjx-hxm8) (Moderate)|
-|[matcha](https://www.npmjs.com/matcha)|v0.6.0|N/A|N/A |MIT|N/A|
 |[memoizee](https://www.npmjs.com/memoizee)|v0.4.1|N/A|N/A |ISC|N/A|
 |[memory-fs](https://www.npmjs.com/memory-fs)|v0.4.1|N/A|N/A |MIT|N/A|
 |[merge-descriptors](https://www.npmjs.com/merge-descriptors)|v1.0.1|N/A|N/A |MIT|N/A|
@@ -1340,8 +1564,6 @@ Full tech stack [here](/techstack.md)
 |[mime](https://www.npmjs.com/mime)|v1.4.1|N/A|N/A |MIT|N/A|
 |[mime-db](https://www.npmjs.com/mime-db)|v1.30.0|N/A|N/A |MIT|N/A|
 |[mime-types](https://www.npmjs.com/mime-types)|v2.1.17|N/A|N/A |MIT|N/A|
-|[minimatch](https://www.npmjs.com/minimatch)|v3.0.4|N/A|N/A |ISC|[CVE-2022-3517](https://github.com/advisories/GHSA-f8q6-p94x-37v3) (High)|
-|[minimist](https://www.npmjs.com/minimist)|v1.2.0|N/A|N/A |MIT|[CVE-2021-44906](https://github.com/advisories/GHSA-xvch-5gv4-984h) (Critical)<br/>[](https://github.com/advisories/GHSA-7fhm-mqm4-2wp7) (Moderate)<br/>[CVE-2020-7598](https://github.com/advisories/GHSA-vh95-rmgr-6w4m) (Moderate)|
 |[mkdirp](https://www.npmjs.com/mkdirp)|v0.5.1|N/A|N/A |MIT|N/A|
 |[mocha-istanbul](https://www.npmjs.com/mocha-istanbul)|v0.3.0|N/A|N/A |MIT|N/A|
 |[mocha-lcov-reporter](https://www.npmjs.com/mocha-lcov-reporter)|v1.2.0|N/A|N/A |BSD-2-Clause|N/A|
@@ -1349,8 +1571,6 @@ Full tech stack [here](/techstack.md)
 |[mocha-sinon](https://www.npmjs.com/mocha-sinon)|v2.0.0|N/A|N/A |MIT|N/A|
 |[mochify](https://www.npmjs.com/mochify)|v3.3.0|N/A|N/A |MIT|N/A|
 |[mock-fs](https://www.npmjs.com/mock-fs)|v2.7.0|N/A|N/A |MIT|N/A|
-|[moment](https://www.npmjs.com/moment)|v2.20.1|N/A|N/A |MIT|[CVE-2022-24785](https://github.com/advisories/GHSA-8hfj-j24r-96c4) (High)<br/>[CVE-2022-31129](https://github.com/advisories/GHSA-wc69-rhjr-hc9g) (High)|
-|[morgan](https://www.npmjs.com/morgan)|v1.9.0|N/A|N/A |MIT|[CVE-2019-5413](https://github.com/advisories/GHSA-gwg9-rgvj-4h5j) (Critical)|
 |[ms](https://www.npmjs.com/ms)|v2.0.0|N/A|N/A |MIT|N/A|
 |[multimatch](https://www.npmjs.com/multimatch)|v2.0.0|N/A|N/A |MIT|N/A|
 |[multiparty](https://www.npmjs.com/multiparty)|v4.1.3|N/A|N/A |MIT|N/A|
@@ -1361,9 +1581,7 @@ Full tech stack [here](/techstack.md)
 |[newrelic](https://www.npmjs.com/newrelic)|v1.40.0|N/A|N/A |Apache-2.0|N/A|
 |[nock](https://www.npmjs.com/nock)|v0.56.0|N/A|N/A |MIT|N/A|
 |[node-dir](https://www.npmjs.com/node-dir)|v0.1.17|N/A|N/A |MIT|N/A|
-|[node-fetch](https://www.npmjs.com/node-fetch)|v1.7.3|N/A|N/A |MIT|[CVE-2022-0235](https://github.com/advisories/GHSA-r683-j2x4-v87g) (High)<br/>[CVE-2020-15168](https://github.com/advisories/GHSA-w7rc-rwvf-8q5r) (Low)|
 |[node-libs-browser](https://www.npmjs.com/node-libs-browser)|v2.0.0|N/A|N/A |MIT|N/A|
-|[node-sass](https://www.npmjs.com/node-sass)|v4.7.2|N/A|N/A |MIT|[](https://github.com/advisories/GHSA-9v62-24cr-58cx) (Moderate)<br/>[CVE-2020-24025](https://github.com/advisories/GHSA-r8f7-9pfq-mjmv) (Moderate)|
 |[nodeunit](https://www.npmjs.com/nodeunit)|v0.9.0|N/A|N/A |MIT|N/A|
 |[normalize-package-data](https://www.npmjs.com/normalize-package-data)|v2.4.0|N/A|N/A |BSD-2-Clause|N/A|
 |[normalize-path](https://www.npmjs.com/normalize-path)|v2.1.1|N/A|N/A |MIT|N/A|
@@ -1378,7 +1596,6 @@ Full tech stack [here](/techstack.md)
 |[on-finished](https://www.npmjs.com/on-finished)|v2.3.0|N/A|N/A |MIT|N/A|
 |[once](https://www.npmjs.com/once)|v1.4.0|N/A|N/A |ISC|N/A|
 |[opener](https://www.npmjs.com/opener)|v1.3.0|N/A|N/A |WTFPL,MIT|N/A|
-|[ora](https://www.npmjs.com/ora)|v0.3.0|N/A|N/A |MIT|N/A|
 |[os-homedir](https://www.npmjs.com/os-homedir)|v1.0.2|N/A|N/A |MIT|N/A|
 |[p-limit](https://www.npmjs.com/p-limit)|v1.1.0|N/A|N/A |MIT|N/A|
 |[pako](https://www.npmjs.com/pako)|v0.2.9|N/A|N/A |MIT|N/A|
@@ -1393,7 +1610,6 @@ Full tech stack [here](/techstack.md)
 |[pify](https://www.npmjs.com/pify)|v2.3.0|N/A|N/A |MIT|N/A|
 |[pinkie-promise](https://www.npmjs.com/pinkie-promise)|v1.0.0|N/A|N/A |MIT|N/A|
 |[pkg-dir](https://www.npmjs.com/pkg-dir)|v2.0.0|N/A|N/A |MIT|N/A|
-|[postcss](https://www.npmjs.com/postcss)|v5.2.18|N/A|N/A |MIT|[CVE-2023-44270](https://github.com/advisories/GHSA-7fh5-64p2-3v2j) (Moderate)<br/>[CVE-2021-23382](https://github.com/advisories/GHSA-566m-qj78-rww5) (Moderate)|
 |[postcss-calc](https://www.npmjs.com/postcss-calc)|v5.3.1|N/A|N/A |MIT|N/A|
 |[postcss-cssnext](https://www.npmjs.com/postcss-cssnext)|v2.8.0|N/A|N/A |MIT|N/A|
 |[postcss-custom-properties](https://www.npmjs.com/postcss-custom-properties)|v5.0.0|N/A|N/A |MIT|N/A|
@@ -1414,9 +1630,7 @@ Full tech stack [here](/techstack.md)
 |[prop-types](https://www.npmjs.com/prop-types)|v15.6.0|N/A|N/A |MIT|N/A|
 |[proxyquire](https://www.npmjs.com/proxyquire)|v1.7.9|N/A|N/A |MIT|N/A|
 |[punycode](https://www.npmjs.com/punycode)|v1.4.1|N/A|N/A |MIT|N/A|
-|[q](https://www.npmjs.com/q)|v1.5.1|N/A|N/A |MIT|N/A|
 |[q-io](https://www.npmjs.com/q-io)|v2.0.3|N/A|N/A |MIT|N/A|
-|[qs](https://www.npmjs.com/qs)|v6.5.1|N/A|N/A |BSD-3-Clause|[CVE-2022-24999](https://github.com/advisories/GHSA-hrpp-h998-j3pp) (High)|
 |[query-string](https://www.npmjs.com/query-string)|v4.3.4|N/A|N/A |MIT|N/A|
 |[querystring](https://www.npmjs.com/querystring)|v0.2.0|N/A|N/A |MIT|N/A|
 |[qunitjs](https://www.npmjs.com/qunitjs)|v1.11.0|N/A|N/A |MIT|N/A|
@@ -1429,7 +1643,6 @@ Full tech stack [here](/techstack.md)
 |[react-addons-css-transition-group](https://www.npmjs.com/react-addons-css-transition-group)|v15.6.0|N/A|N/A |MIT|N/A|
 |[react-addons-test-utils](https://www.npmjs.com/react-addons-test-utils)|v15.5.1|N/A|N/A |MIT|N/A|
 |[react-docgen](https://www.npmjs.com/react-docgen)|v2.20.0|N/A|N/A |MIT|N/A|
-|[react-dom](https://www.npmjs.com/react-dom)|v16.3.2|N/A|N/A |MIT|[CVE-2018-6341](https://github.com/advisories/GHSA-mvjj-gqq2-p4hw) (Moderate)|
 |[react-helmet](https://www.npmjs.com/react-helmet)|v5.2.0|N/A|N/A |MIT|N/A|
 |[react-icons](https://www.npmjs.com/react-icons)|v2.2.7|N/A|N/A |MIT|N/A|
 |[react-input-autosize](https://www.npmjs.com/react-input-autosize)|v2.2.1|N/A|N/A |MIT|N/A|
@@ -1457,7 +1670,6 @@ Full tech stack [here](/techstack.md)
 |[remark-preset-wooorm](https://www.npmjs.com/remark-preset-wooorm)|v3.0.0|N/A|N/A |MIT|N/A|
 |[remark-validate-links](https://www.npmjs.com/remark-validate-links)|v4.0.0|N/A|N/A |MIT|N/A|
 |[replace](https://www.npmjs.com/replace)|v0.3.0|N/A|N/A |MIT|N/A|
-|[request](https://www.npmjs.com/request)|v2.83.0|N/A|N/A |Apache-2.0|[CVE-2023-28155](https://github.com/advisories/GHSA-p8p7-x288-28g6) (Moderate)|
 |[require-directory](https://www.npmjs.com/require-directory)|v2.1.1|N/A|N/A |MIT|N/A|
 |[require-from-string](https://www.npmjs.com/require-from-string)|v1.2.1|N/A|N/A |MIT|N/A|
 |[resolve](https://www.npmjs.com/resolve)|v1.5.0|N/A|N/A |MIT|N/A|
@@ -1480,7 +1692,6 @@ Full tech stack [here](/techstack.md)
 |[schema-utils](https://www.npmjs.com/schema-utils)|v0.3.0|N/A|N/A |MIT|N/A|
 |[script-loader](https://www.npmjs.com/script-loader)|v0.7.0|N/A|N/A |MIT|N/A|
 |[seedrandom](https://www.npmjs.com/seedrandom)|v2.4.3|N/A|N/A |MIT|N/A|
-|[semantic-release](https://www.npmjs.com/semantic-release)|v6.3.2|N/A|N/A |MIT|[CVE-2020-26226](https://github.com/advisories/GHSA-r2j6-p67h-q639) (High)|
 |[semistandard](https://www.npmjs.com/semistandard)|v7.0.4|N/A|N/A |MIT|N/A|
 |[send](https://www.npmjs.com/send)|v0.16.1|N/A|N/A |MIT|N/A|
 |[serve-favicon](https://www.npmjs.com/serve-favicon)|v2.4.5|N/A|N/A |MIT|N/A|
@@ -1489,20 +1700,16 @@ Full tech stack [here](/techstack.md)
 |[setimmediate](https://www.npmjs.com/setimmediate)|v1.0.5|N/A|N/A |MIT|N/A|
 |[sha.js](https://www.npmjs.com/sha.js)|v2.4.9|N/A|N/A |MIT,BSD-3-Clause|N/A|
 |[shallowequal](https://www.npmjs.com/shallowequal)|v0.2.2|N/A|N/A |MIT|N/A|
-|[shelljs](https://www.npmjs.com/shelljs)|v0.7.8|N/A|N/A |BSD-3-Clause|[CVE-2022-0144](https://github.com/advisories/GHSA-4rq4-32rv-6wp6) (High)<br/>[](https://github.com/advisories/GHSA-64g7-mvw6-v9qj) (Moderate)|
 |[should](https://www.npmjs.com/should)|v8.2.2|N/A|N/A |MIT|N/A|
 |[shx](https://www.npmjs.com/shx)|v0.2.0|N/A|N/A |MIT|N/A|
-|[simple-git](https://www.npmjs.com/simple-git)|v1.65.0|N/A|N/A |MIT|[CVE-2022-25860](https://github.com/advisories/GHSA-9w5j-4mwv-2wj8) (Critical)<br/>[CVE-2022-24433](https://github.com/advisories/GHSA-3f95-r44v-8mrg) (High)<br/>[CVE-2022-24066](https://github.com/advisories/GHSA-28xr-mwxg-3qc8) (High)<br/>[CVE-2022-25912](https://github.com/advisories/GHSA-9p95-fxvg-qgq2) (High)|
 |[sinon-chai](https://www.npmjs.com/sinon-chai)|v2.8.0|N/A|N/A |BSD-2-Clause,WTFPL|N/A|
 |[size-limit](https://www.npmjs.com/size-limit)|v0.11.6|N/A|N/A |MIT|N/A|
 |[slash](https://www.npmjs.com/slash)|v1.0.0|N/A|N/A |MIT|N/A|
 |[snazzy](https://www.npmjs.com/snazzy)|v5.0.0|N/A|N/A |MIT|N/A|
 |[source-map](https://www.npmjs.com/source-map)|v0.5.7|N/A|N/A |BSD-3-Clause|N/A|
 |[source-map-support](https://www.npmjs.com/source-map-support)|v0.4.18|N/A|N/A |MIT|N/A|
-|[split](https://www.npmjs.com/split)|v1.0.0|N/A|N/A |MIT|N/A|
 |[sprintf-js](https://www.npmjs.com/sprintf-js)|v1.0.3|N/A|N/A |BSD-3-Clause|N/A|
 |[standard](https://www.npmjs.com/standard)|v16.0.4|N/A|N/A |MIT|N/A|
-|[standard-version](https://www.npmjs.com/standard-version)|v4.0.0|N/A|N/A |ISC|[](https://github.com/advisories/GHSA-7xcx-6wjh-7xp2) (Moderate)|
 |[statuses](https://www.npmjs.com/statuses)|v1.3.1|N/A|N/A |MIT|N/A|
 |[string-width](https://www.npmjs.com/string-width)|v2.1.1|N/A|N/A |MIT|N/A|
 |[stringify-object](https://www.npmjs.com/stringify-object)|v2.4.0|N/A|N/A |BSD-2-Clause|N/A|
@@ -1512,12 +1719,10 @@ Full tech stack [here](/techstack.md)
 |[stylelint-config-standard](https://www.npmjs.com/stylelint-config-standard)|v17.0.0|N/A|N/A |MIT|N/A|
 |[stylelint-processor-styled-components](https://www.npmjs.com/stylelint-processor-styled-components)|v0.2.1|N/A|N/A |MIT|N/A|
 |[sugarss](https://www.npmjs.com/sugarss)|v0.2.0|N/A|N/A |MIT|N/A|
-|[superagent](https://www.npmjs.com/superagent)|v1.8.3|N/A|N/A |MIT|[CVE-2017-16129](https://github.com/advisories/GHSA-8225-6cvr-8pqp) (Moderate)|
 |[supports-color](https://www.npmjs.com/supports-color)|v2.0.0|N/A|N/A |MIT|N/A|
 |[surge](https://www.npmjs.com/surge)|v0.19.0|N/A|N/A |ISC|N/A|
 |[svgo](https://www.npmjs.com/svgo)|v0.7.2|N/A|N/A |MIT|N/A|
 |[symbol-observable](https://www.npmjs.com/symbol-observable)|v1.0.4|N/A|N/A |MIT|N/A|
-|[sync-exec](https://www.npmjs.com/sync-exec)|v0.6.2|N/A|N/A |MIT|[CVE-2017-16024](https://github.com/advisories/GHSA-38h8-x697-gh8q) (Moderate)|
 |[tap](https://www.npmjs.com/tap)|v7.1.0|N/A|N/A |ISC|N/A|
 |[tap-dot](https://www.npmjs.com/tap-dot)|v0.2.1|N/A|N/A |MIT|N/A|
 |[tap-spec](https://www.npmjs.com/tap-spec)|v4.1.0|N/A|N/A |MIT|N/A|
@@ -1532,20 +1737,16 @@ Full tech stack [here](/techstack.md)
 |[text-table](https://www.npmjs.com/text-table)|v0.2.0|N/A|N/A |MIT|N/A|
 |[through](https://www.npmjs.com/through)|v2.3.8|N/A|N/A |MIT|N/A|
 |[through2](https://www.npmjs.com/through2)|v2.0.0|N/A|N/A |MIT|N/A|
-|[tough-cookie](https://www.npmjs.com/tough-cookie)|v2.3.3|N/A|N/A |BSD-3-Clause|[CVE-2023-26136](https://github.com/advisories/GHSA-72xf-g2v4-qvf3) (Moderate)|
 |[tslint-microsoft-contrib](https://www.npmjs.com/tslint-microsoft-contrib)|v5.0.0|N/A|N/A |MIT|N/A|
 |[tsutils](https://www.npmjs.com/tsutils)|v2.8.2|N/A|N/A |MIT|N/A|
 |[tweetnacl](https://www.npmjs.com/tweetnacl)|v0.14.5|N/A|N/A |Unlicense|N/A|
 |[type-is](https://www.npmjs.com/type-is)|v1.6.15|N/A|N/A |MIT|N/A|
 |[typescript-formatter](https://www.npmjs.com/typescript-formatter)|v5.1.3|N/A|N/A |MIT|N/A|
-|[ua-parser-js](https://www.npmjs.com/ua-parser-js)|v0.7.17|N/A|N/A |AGPL-3.0|[CVE-2020-7793](https://github.com/advisories/GHSA-394c-5j6w-4xmx) (High)<br/>[CVE-2020-7733](https://github.com/advisories/GHSA-662x-fhqg-9p8v) (High)<br/>[CVE-2021-27292](https://github.com/advisories/GHSA-78cj-fxph-m83p) (High)<br/>[CVE-2022-25927](https://github.com/advisories/GHSA-fhg7-m89q-25r3) (High)|
 |[uglify-es](https://www.npmjs.com/uglify-es)|v3.0.28|N/A|N/A |BSD-2-Clause|N/A|
 |[uglify-js](https://www.npmjs.com/uglify-js)|v2.8.29|N/A|N/A |BSD-2-Clause|N/A|
 |[uglifyify](https://www.npmjs.com/uglifyify)|v3.0.4|N/A|N/A |MIT|N/A|
 |[uglifyjs](https://www.npmjs.com/uglifyjs)|v2.4.10|N/A|N/A |BSD-3-Clause|N/A|
 |[uglifyjs-webpack-plugin](https://www.npmjs.com/uglifyjs-webpack-plugin)|v0.4.6|N/A|N/A |MIT|N/A|
-|[underscore](https://www.npmjs.com/underscore)|v1.8.3|N/A|N/A |MIT|[CVE-2021-23358](https://github.com/advisories/GHSA-cf4h-3jhx-xvhq) (Critical)|
-|[underscore.string](https://www.npmjs.com/underscore.string)|v3.2.0|N/A|N/A |MIT|[](https://github.com/advisories/GHSA-v2p6-4mp7-3r9v) (Moderate)|
 |[unified](https://www.npmjs.com/unified)|v6.1.5|N/A|N/A |MIT|N/A|
 |[uniqid](https://www.npmjs.com/uniqid)|v4.1.1|N/A|N/A |MIT|N/A|
 |[url](https://www.npmjs.com/url)|v0.11.0|N/A|N/A |MIT|N/A|
@@ -1564,25 +1765,21 @@ Full tech stack [here](/techstack.md)
 |[watchify](https://www.npmjs.com/watchify)|v3.7.0|N/A|N/A |MIT|N/A|
 |[wd](https://www.npmjs.com/wd)|v0.2.21|N/A|N/A |Apache-2.0|N/A|
 |[webpack-dev-middleware](https://www.npmjs.com/webpack-dev-middleware)|v1.12.0|N/A|N/A |MIT|N/A|
-|[webpack-dev-server](https://www.npmjs.com/webpack-dev-server)|v2.4.2|N/A|N/A |MIT|[CVE-2018-14732](https://github.com/advisories/GHSA-cf66-xwfp-gvc4) (High)|
 |[webpack-hot-middleware](https://www.npmjs.com/webpack-hot-middleware)|v2.20.0|N/A|N/A |MIT|N/A|
 |[webpack-merge](https://www.npmjs.com/webpack-merge)|v4.1.1|N/A|N/A |MIT|N/A|
 |[webpack-sources](https://www.npmjs.com/webpack-sources)|v1.0.2|N/A|N/A |MIT|N/A|
 |[whatwg-fetch](https://www.npmjs.com/whatwg-fetch)|v2.0.3|N/A|N/A |MIT|N/A|
 |[when](https://www.npmjs.com/when)|v3.7.7|N/A|N/A |MIT|N/A|
 |[which](https://www.npmjs.com/which)|v1.3.0|N/A|N/A |ISC|N/A|
-|[word-wrap](https://www.npmjs.com/word-wrap)|v1.2.3|N/A|N/A |MIT|[CVE-2023-26115](https://github.com/advisories/GHSA-j8xg-fqg3-53r7) (Moderate)|
 |[wordwrap](https://www.npmjs.com/wordwrap)|v0.0.2|N/A|N/A |MIT|N/A|
 |[worker-loader](https://www.npmjs.com/worker-loader)|v0.8.0|N/A|N/A |MIT|N/A|
 |[wrap-ansi](https://www.npmjs.com/wrap-ansi)|v2.1.0|N/A|N/A |MIT|N/A|
 |[write](https://www.npmjs.com/write)|v0.3.3|N/A|N/A |MIT|N/A|
 |[write-file-atomic](https://www.npmjs.com/write-file-atomic)|v2.3.0|N/A|N/A |ISC|N/A|
 |[xo](https://www.npmjs.com/xo)|v0.16.0|N/A|N/A |MIT|N/A|
-|[xtend](https://www.npmjs.com/xtend)|v4.0.1|N/A|N/A |MIT|N/A|
 |[yargs](https://www.npmjs.com/yargs)|v3.10.0|N/A|N/A |MIT|N/A|
-|[yargs-parser](https://www.npmjs.com/yargs-parser)|v7.0.0|N/A|N/A |ISC|[CVE-2020-7608](https://github.com/advisories/GHSA-p9pc-299p-vxgp) (Moderate)|
 
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
